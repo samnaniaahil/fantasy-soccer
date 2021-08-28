@@ -78,7 +78,7 @@ def index():
 
 @app.route("/add", methods=["GET", "POST"])
 def add_player():
-    con = sqlite3.connect(db)
+    con = sqlite3.connect(db, uri=True)
     cur = con.cursor()
     # Get number of players in user's team
     cur.execute("SELECT COUNT(id) FROM team WHERE user_id = ?", (session["user_id"],))
@@ -114,7 +114,7 @@ def add_player():
 @app.route("/delete", methods=["GET", "POST"])
 @login_required
 def delete_player():
-    con = sqlite3.connect(db)
+    con = sqlite3.connect(db, uri=True)
     cur = con.cursor()
     player = str(cur.execute("SELECT name FROM searches WHERE user_id = ? ORDER BY id DESC LIMIT 1", (session["user_id"],)).fetchall()[0][0])
     player_rows = cur.execute("SELECT name FROM team WHERE name = ? AND user_id = ?", (player, session["user_id"])).fetchall()
@@ -141,7 +141,7 @@ def delete_player():
 @app.route("/league")
 @login_required
 def league():
-    con = sqlite3.connect(db)
+    con = sqlite3.connect(db, uri=True)
     cur = con.cursor()
 
     users = cur.execute("SELECT users.username, SUM(team.points), users.money FROM users JOIN team WHERE users.id = team.user_id GROUP BY users.id ORDER BY SUM(team.points) DESC").fetchall()
@@ -154,7 +154,7 @@ def league():
 @app.route("/history", methods=["GET", "POST"])
 @login_required
 def history():
-    con = sqlite3.connect(db)
+    con = sqlite3.connect(db, uri=True)
     cur = con.cursor()
     if request.method == "POST":
         cur.execute("DELETE FROM transfers WHERE user_id = ?", (session["user_id"],))
@@ -183,7 +183,7 @@ def login():
         if not password:
             return render_template("login.html", error_msg="Please enter a password.")
 
-        con = sqlite3.connect(db)
+        con = sqlite3.connect(db, uri=True)
         cur = con.cursor()
         user_rows = cur.execute("SELECT * FROM users WHERE username = ?", (username,)).fetchall()
 
@@ -241,7 +241,7 @@ def players():
             player_stats.columns = player_stats.columns.str.title().str.replace("_", " ")
             player_stats_table = Markup(player_stats.to_html(index=False))
 
-            con = sqlite3.connect(db)
+            con = sqlite3.connect(db, uri=True)
             cur = con.cursor()
 
             # Check if player is in team
@@ -307,7 +307,7 @@ def register():
         password = password.encode("utf-8")
         hashed_password = bcrypt.hashpw(password, bcrypt.gensalt())
 
-        con = sqlite3.connect(db)
+        con = sqlite3.connect(db, uri=True)
         cur = con.cursor()
 
         usernames = cur.execute("SELECT username FROM users WHERE username = ?", (username,)).fetchall()
@@ -328,7 +328,7 @@ def register():
 @app.route("/team")
 @login_required
 def team():
-    con = sqlite3.connect(db)
+    con = sqlite3.connect(db, uri=True)
     cur = con.cursor()
     players = cur.execute("SELECT name, position, points FROM team WHERE user_id = ? ORDER BY position = ? DESC, position = ? DESC, position = ? DESC, position = ? DESC",
                           (session["user_id"], "Goalkeeper", "Defender", "Midfielder", "Forward")).fetchall()
