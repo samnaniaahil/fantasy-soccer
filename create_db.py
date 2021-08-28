@@ -1,7 +1,7 @@
 from app import db
 import sqlite3
 
-con = sqlite3.connect(db)
+con = sqlite3.connect(db, uri="True")
 cur = con.cursor()
 
 cur.execute("""CREATE TABLE "users" (
