@@ -1,0 +1,446 @@
+/* General */
+main {
+    text-align: center;
+}
+
+body {
+    color: black;
+}
+
+.navbar-brand
+{
+    font-size: 25px;
+    color: black;
+}
+
+.navbar-brand:hover
+{
+    color: purple;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: purple;
+}
+
+.nav-purple {
+    color: purple;
+}
+
+.btn-custom {
+    background-color: purple;
+    color: white;    
+    border: none;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+    background-color: darkorchid;
+    color: white;
+}
+
+input:focus {
+    outline-color: purple;
+}
+
+#hamburger-icon {
+    height: 0.5vh;
+    width: auto;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 15px;
+}
+
+.search {
+    text-align: center;
+}
+
+.search-field {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.error-msg {
+    color: red;
+}
+
+.dataframe {
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    border: none;
+    width: 90%;
+    font-size: 18px;
+}
+
+.dataframe th, .dataframe td {
+    text-align: center;
+    padding: 10px;
+    border: none;
+}
+
+@media(max-width: 900px) {
+    .dataframe {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .dataframe th:nth-child(odd), .dataframe td:nth-child(odd){
+        color: purple;
+        border-radius: 5px;
+    }
+    .dataframe th, .dataframe td {
+        float: left;
+        display: block;
+        text-align: center;
+    }
+}
+
+/* Home */
+.overlay {
+    height: 100vh;
+    padding-top: 25vh;
+    color: white;
+    text-align: center;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("home.png");*/
+}
+
+#index-title {
+    font-size: 80px;
+}
+
+#index-subtitle {
+    font-size: 25px;
+}
+
+#index-footer {
+    font-size: 15px;
+    margin-top: 20vw;
+}
+
+/* Players */
+#players-intro {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#players-search-btn {
+    margin-top: 15px;
+}
+
+/* Filter/Search list */
+#players-title {
+    font-size: 60px;
+}
+
+#players-subtitle {
+    font-size: 18px;
+}
+
+#players-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 3vh;
+    display: none;
+    text-align: center;  
+}
+
+.players-name-btn {
+    background-color: white;
+    margin: 3px;
+    width: 300px;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.players-name-btn:hover {
+    background-color: purple;
+    color: white;
+    outline: black;
+}
+
+.players-name-btn:focus, .players-name-btn:active {
+    outline-color: black;
+}
+
+#players-input {
+    display: none;
+}
+
+/* Player */
+#player {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+#player-name {
+    font-size: 40px;
+}
+
+#player-position {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#player-picture {
+    margin-bottom: 10px;
+    height: 20vh;
+    width: auto;
+}
+
+#player-btns {
+    margin-bottom: 5vh;
+}
+
+.player-info-column {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.player-info-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.player-info-title {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.player-info-detail {
+    font-size: 18px;
+}
+
+#player-stats {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+#player-stats-title {
+    font-size: 25px;
+}
+
+#player-stats-table {
+    margin-top: 20px;
+}
+
+/* Team */
+#team {
+    text-align: center;
+}
+
+#team-title {
+    font-size: 50px;
+    margin-top: 2vw;
+    margin-bottom: 1.5vw;
+}
+
+#team-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#team-layout {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2vw;
+    color: white;
+    background-image: url("field.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+@media(max-width: 900px) {
+    #team-layout {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+#team-info {
+    font-size: 2vh;
+    margin-bottom: 2vw;
+}
+
+.team-col {
+    float: left;
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+.team-picture {
+    height: 10vh;
+    width: auto;
+    margin-bottom: 0.5vw;
+}
+
+.team-player-info {
+    margin-top: 0.1vw;
+    margin-bottom: 0.1vw;
+    font-size: 1.5vh;
+}
+
+#team-tooltip {
+    font-size: 15px;
+}
+
+#team-tooltip-icon {
+    height: 1.8vh;
+}
+
+#team-alert-div {
+    width: 80%;
+    margin: auto;
+}
+
+#team-alert {
+    padding: 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+#closebtn {
+    margin-top: 0.5vh;
+    margin-right: 1vh;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+#closebtn:hover {
+    color: white;
+}
+
+/* History */
+#history-div {
+    text-align: center;
+    height: 100vh;
+}
+
+#history-title {
+    margin-top: 3vh;
+}
+
+#history-clear-btn {
+    margin-top: 30px;
+}
+
+#history-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+}
+
+@media(max-width: 670px) {
+    #history-table {
+        font-size: 11px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #history-clear-btn {
+        font-size: 12px;
+    }
+}
+
+#history-table th, td {
+    padding: 15px;
+}
+
+#history-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Register */
+#register-div {
+    height: 100vh;
+}
+
+#register-title {
+    padding-top: 5vh;
+}
+
+#register-form {
+    margin-top: 3vh;
+}
+
+.register-field {
+    width: 230px;
+    margin-bottom: 25px;
+    padding: 3px;
+}
+
+#register-dropdown {
+    margin-top: 8vh;
+}
+
+#register-dropdown-title {
+    font-size: 20px;
+}
+
+
+#register-list {
+    margin-top: 10px;
+    display: inline-block; 
+	text-align: left; 
+    margin-left: 35px;
+}
+
+/* Login */
+#login-title {
+    margin-top: 10vh;
+}
+
+#login-form {
+    margin-top: 3vh;
+}
+
+.login-field {
+    width: 230px;
+    padding: 3px;
+    margin-bottom: 25px;
+}
+
+/* League */
+#league-title {
+    padding-top: 3vh;
+}
+
+#league-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#league-table th, td {
+    padding: 15px;
+}
+
+#league-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.league-medal {
+    height: 30px;
+}

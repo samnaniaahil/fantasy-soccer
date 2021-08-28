@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <div id="players-intro">
+        <h1 id="players-title">Players</h1>
+        <p id="players-subtitle">Search for players.</p>
+    </div>
+
+    <form class="search" action="/players" method="post">
+        <div>
+            <input type="text" class="search-field" id="pname" onkeyup="searchList()" autocomplete="off" autofocus class="form-control" name="player" placeholder="Player name">
+        </div>
+        
+        <button class="btn-custom" id="players-search-btn" type="submit">Search</button>
+    </form>
+
+    <ul id="players-list">
+        {% for player in players_df[["name", "position", "team"]].values %}
+            <form action="/players" method="post">
+                <input id="players-input" name="player" value="{{ player[0] }}"></input>
+                <button class="players-name-btn" type="submit">{{ player[0] + ", " + player[1] }}</button>
+            </form>
+        {% endfor %}
+    </ul>
+    <script>
+        function searchList() {
+            let player = document.getElementById('pname').value.toLowerCase();
+
+            if (player.length == 0) {
+                document.getElementById('players-list').style.display = "none";
+                return;
+            }
+
+            document.getElementById('players-list').style.display = "list-item";
+            let button = document.getElementsByClassName('players-name-btn');
+
+            for (let i = 0; i < button.length; i++) {
+                len = player.length;
+                let item = JSON.stringify(button[i].innerText);
+
+                // Get player name which is from the beginning to the comma
+                sepIndex = item.indexOf(', ');
+                let name = item.substring(0, sepIndex).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); // Remove accents
+
+                if (name.includes(player)) {
+                    button[i].style.display = "";
+                }
+                 
+                else {
+                    button[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+{% endblock %}

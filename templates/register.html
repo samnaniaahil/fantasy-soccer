@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Team
+{% endblock %}
+
+{% block main %}
+    <div id="register-div">
+        <h1 id="register-title">Register</h1>
+
+        <form class = "search" action="/register" method="post" id="register-form">
+            <div>
+                <input type="text" class="register-field" name="username" autocomplete="off" placeholder="Username">
+            </div>
+            <div>
+                <input type="text" class="register-field" name="password" autocomplete="off" placeholder="Password">
+            </div>
+            <div>
+                <input type="text" class="register-field" name="confirmation" autocomplete="off" placeholder="Conifrm password">
+            </div>
+
+            {% with messages = get_flashed_messages() %}
+                {% if messages %} 
+                    {% for message in messages %}
+                        <p class="error-msg">{{ message }}</p>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+
+            <button class="btn-custom" type="submit">Register</button>
+        </form>
+
+        <details id="register-dropdown">
+            <summary id="register-dropdown-title">Password Guidelines</summary>
+            <ul id="register-list">
+                <b>Passwords should contain:</b>
+                <li>at least 8 characters</li>
+                <li>both letters and numbers</li>
+                <li>both uppercase and lowercase letters</li>
+                <li>a special character (e.g. @, #, $)</li>
+            </ul>
+        </details>
+    </div>
+{% endblock %}

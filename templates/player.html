@@ -1,0 +1,78 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <div id="player">
+        <h2 id="player-name">{{ player_info["name"] }}</h2>
+        <p id="player-position">{{ player_info["position"] }}</p>
+
+        <div id="player-btns">
+            {% if not player_in_team %}
+            <div>
+                <form action="/add" method="post">
+                    <button class="btn-custom" type="submit">Add Player</button>
+                </form> 
+            </div>
+            {% else %}
+            <div>
+                <form action="/delete" method="post">
+                    <button class="btn-custom" type="submit">Delete Player</button>
+                </form>
+            </div>
+            {% endif %}
+        </div>
+
+        <img id = "player-picture"
+        src="{{ 'https://resources.premierleague.com/premierleague/photos/players/110x140/p'
+                    + player_code|string + '.png' }}" 
+        alt="{{ player_info['name'] }} Picture">
+
+        <div id="player-info-row">
+            <div class="player-info-column">
+                <h4 class="player-info-title">Team</h4>
+                <p class="player-info-detail">{{ player_info["team"] }}</p>
+            </div>
+            
+            <div class="player-info-column">
+                <h4 class="player-info-title">Cost</h4>
+                <p class="player-info-detail">&#163;{{ player_info["now_cost"]}}</p>
+            </div>
+
+            <div class="player-info-column">
+                <h4 class="player-info-title">Form</h4>
+                <p class="player-info-detail">{{ player_info["form"] }}</p>
+            </div>
+        </div>
+        
+        {% if player_news %}
+        <div>
+            <h4 id="player-info-title">News</h4>
+            <p class="player-info-detail">
+                {{ player_news }}.
+                <br>
+                Updated {{ player_news_date }}.
+            </p>
+        </div>
+        {% endif %}
+        
+        <div id="player-stats">
+            <details>
+                <summary id="player-stats-title">Player Stats</summary>
+                <div id="player-stats-table">
+                    {{ player_stats_table }}
+                </div>
+            </details>
+        </div>
+    </div>
+
+    <script>
+        function resizeTable() {
+            if (window.innerWidth <= 900) {
+                console.log("yes");
+            }
+        }
+    </script>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    League
+{% endblock %}
+
+{% block main %}
+    <div id="league-div">
+        
+    <h1 id="league-title">League</h1>
+
+        <table id="league-table">
+            <tr>
+                <th>Rank</th>
+                <th>Username</th>
+                <th>Total Points</th>
+                <th>Money Spent (&#163;)</th>
+            </tr>
+            {% for user in users %}
+            <tr>
+                {% if loop.index <= 3 %}
+                    <td><img class="league-medal" src="static/medal_{{ loop.index }}.png" alt="#{{ loop.index }} medal."></td>
+                {% else %}
+                    <td>{{ loop.index }}</td>
+                {% endif %}
+
+                <td>{{ user[0] }}</td>
+                <td>{{ user[1] }}</td>
+                <td>{{ 800 - user[2] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    
+    </div>
+{% endblock %}

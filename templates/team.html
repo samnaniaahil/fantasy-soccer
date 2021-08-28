@@ -1,0 +1,91 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Team
+{% endblock %}
+
+{% block main %}
+    <div id="team">
+        <div id="team-alert-div">
+            {% with messages = get_flashed_messages() %}
+                {% if messages %} 
+                    {% for message in messages %}
+                        <span id="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                        <p id="team-alert">{{ message }}</p>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
+
+        <h1 id=team-title>Team</h1>
+
+        <p id="team-info">
+            <b>Points:</b> {{ total_points }}
+            <span id="team-tooltip" data-toggle="tooltip" data-placement="bottom" title="Total points earned by all players over the season. Updates each gameweek.">
+               <img id="team-tooltip-icon" src="static/info_icon.png" alt="Info Icon">
+            </span>  
+            | <b>Money Left:</b> &#163;{{ money }} | <b>Formation:</b> {{ position_dict["Defender"] }}-{{ position_dict["Midfielder"] }}-{{ position_dict["Forward"]}}
+        </p>
+
+        {% if players %}
+            <div id="team-layout">
+                {% set ns = namespace(items=0) %}
+                {% for type in position_types %}
+                    <div id="team-row">
+                        {% for i in range(position_dict[type]) %}
+                            <div class="team-col team-col-{{ type }}">
+                                <img class="team-picture" src="{{ 'https://resources.premierleague.com/premierleague/photos/players/110x140/p'
+                                                            + player_codes[ns.items][0]|string + '.png' }}" 
+                                                    alt="{{ players[ns.items][0] }} Picture">
+
+                                <p class="team-player-info"><b>{{ players[ns.items][0] }}</b></p>
+                                <p class="team-player-info">{{ players[ns.items][1] }}</p>
+                                <p class="team-player-info">{{ players[ns.items][2] }}</p>
+                                {% set ns.items = ns.items + 1 %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <p>Team is currently empty.</p> 
+            <p>Add players to get points and see how you rank in the league!</p>
+        {% endif %}
+        
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // When moving javascript to other file, use this if the other code doesn't work
+            /*positionTypes = ["Goalkeeper", "Defender", "Midfielder", "Forward"];
+            for (let i = 0; i < positionTypes.length; i++) {
+                players = document.getElementsByClassName("team-col-" + positionTypes[i]);
+                for (let j = 0; j < players.length; j++) {
+                    players[j].style.width = String(100 / players.length) + "%";
+                }
+            }*/
+            "{% for type in position_types %}"
+                players = document.getElementsByClassName("team-col-" + "{{ type }}");
+                for (let j = 0; j < players.length; j++) {
+                    players[j].style.width = String(100 / players.length) + "%";
+                }
+            "{% endfor %}"
+        });
+     </script>
+    <!--<script>
+        "{% for code in player_codes %}"
+            /* Scale image 1.5x from original */
+            var img = new Image(165, 210);
+            img.src = "https://resources.premierleague.com/premierleague/photos/players/110x140/p" + "{{ code[0] }}" + ".png";
+            img.alt = "{{ players[loop.index-1][0] }}"
+            document.getElementById('team').appendChild(img);
+        "{% endfor %}"
+    </script>-->
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+{% endblock %}
+
+

@@ -1,0 +1,556 @@
+first_name,second_name,web_name,position,team,total_points,points_per_game,minutes,goals_scored,assists,clean_sheets,goals_conceded,saves,ict_index,form,now_cost,selected_by_percent,news,news_added,yellow_cards,red_cards
+Bernd,Leno,Leno,Goalkeeper,Arsenal,1,1.0,90,0,0,0,2,1,1.2,1.0,50,2.2,,,0,0
+Rúnar Alex,Rúnarsson,Rúnarsson,Goalkeeper,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,40,1.4,,,0,0
+Willian,Borges Da Silva,Willian,Midfielder,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,65,0.3,,,0,0
+Pierre-Emerick,Aubameyang,Aubameyang,Forward,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,100,2.0,Illness - 25% chance of playing,2021-08-13T14:30:14.477664Z,0,0
+Cédric,Soares,Cédric,Defender,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.3,,,0,0
+Alexandre,Lacazette,Lacazette,Forward,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,85,2.1,Illness - 25% chance of playing,2021-08-13T14:30:14.582063Z,0,0
+Granit,Xhaka,Xhaka,Midfielder,Arsenal,2,2.0,90,0,0,0,2,0,4.5,2.0,50,1.0,,,0,0
+Pablo,Marí,Marí,Defender,Arsenal,1,1.0,90,0,0,0,2,0,2.5,1.0,45,0.2,,,0,0
+Héctor,Bellerín,Bellerín,Defender,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,50,1.0,,,0,0
+Calum,Chambers,Chambers,Defender,Arsenal,1,1.0,80,0,0,0,2,0,4.2,1.0,45,0.4,,,0,0
+Sead,Kolasinac,Kolasinac,Defender,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Mohamed Naser,El Sayed Elneny,Elneny,Midfielder,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.7,,,0,0
+Ainsley,Maitland-Niles,Maitland-Niles,Midfielder,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.1,,,0,0
+Rob,Holding,Holding,Defender,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,45,1.9,,,0,0
+Thomas,Partey,Partey,Midfielder,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,Ankle injury - Expected back 28 Aug,2021-08-04T10:30:07.806099Z,0,0
+Kieran,Tierney,Tierney,Defender,Arsenal,1,1.0,90,0,0,0,2,0,15.5,1.0,50,7.7,,,0,0
+Nicolas,Pépé,Pépé,Midfielder,Arsenal,2,2.0,90,0,0,0,2,0,10.3,2.0,75,2.9,,,0,0
+Lucas,Torreira,Torreira,Midfielder,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.5,,,0,0
+Edward,Nketiah,Nketiah,Forward,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.1,Ankle injury - Expected back 11 Sep,2021-08-08T18:00:05.173437Z,0,0
+Emile,Smith Rowe,Smith Rowe,Midfielder,Arsenal,2,2.0,90,0,0,0,2,0,7.3,2.0,55,7.0,,,0,0
+Bukayo,Saka,Saka,Midfielder,Arsenal,1,1.0,31,0,0,0,1,0,3.1,1.0,65,13.2,,,0,0
+Gabriel,Magalhães,Gabriel,Defender,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,Knee injury - Unknown return date,2021-08-04T10:30:07.822243Z,0,0
+Konstantinos,Mavropanos,Mavropanos,Defender,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Season long loan to Stuttgart,2021-07-02T08:43:27.623007Z,0,0
+Mattéo,Guendouzi,Guendouzi,Midfielder,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Season long loan to Marseille,2021-07-08T07:32:22.717852Z,0,0
+Gabriel Teodoro,Martinelli Silva,Martinelli,Midfielder,Arsenal,2,2.0,70,0,0,0,1,0,3.6,2.0,55,0.4,,,0,0
+William,Saliba,Saliba,Defender,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Joined Marseille on loan for 2021/22. - Expected back 23 May,2021-07-15T17:30:06.383244Z,0,0
+Ben,White,White,Defender,Arsenal,1,1.0,90,0,0,0,2,0,1.1,1.0,45,23.1,,,0,0
+Nuno,Varela Tavares,Tavares,Defender,Arsenal,1,1.0,9,0,0,0,0,0,0.1,1.0,45,0.3,,,0,0
+Albert,Sambi Lokonga,Sambi Lokonga,Midfielder,Arsenal,2,2.0,90,0,0,0,2,0,6.2,2.0,50,0.2,,,0,0
+Folarin,Balogun,Balogun,Forward,Arsenal,1,1.0,58,0,0,0,1,0,0.9,1.0,50,0.4,,,0,0
+Reiss,Nelson,Nelson,Midfielder,Arsenal,1,1.0,19,0,0,0,1,0,3.6,1.0,50,0.0,,,0,0
+Karl,Hein,Hein,Goalkeeper,Arsenal,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.0,,,0,0
+Jed,Steer,Steer,Goalkeeper,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,40,1.1,,,0,0
+Conor,Hourihane,Hourihane,Midfielder,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,,,0,0
+Emiliano,Martínez,Martínez,Goalkeeper,Aston Villa,2,2.0,90,0,0,0,3,4,2.8,2.0,55,34.0,,,0,0
+Björn,Engels,Engels,Defender,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Transferred to Royal Antwerp,2021-06-25T10:09:04.469362Z,0,0
+Bertrand,Traoré,Traoré,Midfielder,Aston Villa,4,4.0,18,0,1,0,0,0,3.3,4.0,60,2.0,,,0,0
+Morgan,Sanson,Sanson,Midfielder,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,Knee injury - Unknown return date,2021-08-09T06:00:12.415351Z,0,0
+John,McGinn,McGinn,Midfielder,Aston Villa,7,7.0,90,1,0,0,3,0,5.6,7.0,60,1.2,,,0,0
+Kortney,Hause,Hause,Defender,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Mahmoud Ahmed,Ibrahim Hassan,Trézéguet,Midfielder,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,Knee injury - Unknown return date,2021-06-22T11:30:10.533711Z,0,0
+Tyrone,Mings,Mings,Defender,Aston Villa,0,0.0,90,0,0,0,3,0,1.6,0.0,50,8.1,,,1,0
+Matt,Targett,Targett,Defender,Aston Villa,0,0.0,45,0,0,0,2,0,1.8,0.0,50,9.1,,,0,0
+Ollie,Watkins,Watkins,Forward,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,75,3.7,Knee injury - 75% chance of playing,2021-08-08T22:30:08.091938Z,0,0
+Marvelous,Nakamba,Nakamba,Midfielder,Aston Villa,2,2.0,90,0,0,0,3,0,1.3,2.0,45,0.2,,,0,0
+Anwar,El Ghazi,El Ghazi,Midfielder,Aston Villa,1,1.0,59,0,0,0,2,0,0.8,1.0,60,1.1,,,0,0
+Emiliano,Buendía Stati,Buendía,Midfielder,Aston Villa,2,2.0,71,0,0,0,3,0,2.0,2.0,65,5.4,,2021-08-09T06:00:12.461389Z,0,0
+Matthew,Cash,Cash,Defender,Aston Villa,1,1.0,90,0,0,0,3,0,3.0,1.0,50,1.9,,,0,0
+Ezri,Konsa Ngoyo,Konsa,Defender,Aston Villa,1,1.0,90,0,0,0,3,0,2.3,1.0,50,1.1,,,0,0
+Frédéric,Guilbert,Guilbert,Defender,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Knock - 75% chance of playing,2021-08-09T06:00:12.479730Z,0,0
+Wesley,Moraes,Wesley,Forward,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.3,,,0,0
+Mbwana Ally,Samatta,Samatta,Forward,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,Transferred to Fenerbahce,2021-07-11T07:37:45.166277Z,0,0
+Keinan,Davis,Davis,Forward,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,45,2.3,Knock - 25% chance of playing,2021-08-09T06:00:12.498773Z,0,0
+Douglas Luiz,Soares de Paulo,Douglas Luiz,Midfielder,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.9,Lack of match fitness - Expected back 21 Aug,2021-08-13T10:00:09.099732Z,0,0
+Jacob,Ramsey,Ramsey,Midfielder,Aston Villa,1,1.0,45,0,0,0,1,0,1.8,1.0,45,0.4,,,0,0
+Ashley,Young,Young,Defender,Aston Villa,1,1.0,90,0,0,0,3,0,3.7,1.0,50,1.0,,,0,0
+Axel,Tuanzebe,Tuanzebe,Defender,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.8,,,0,0
+Danny,Ings,Ings,Forward,Aston Villa,7,7.0,90,1,0,0,3,0,6.0,7.0,80,38.6,,,0,0
+Leon,Bailey,Bailey,Midfielder,Aston Villa,4,4.0,30,0,1,0,1,0,5.6,4.0,65,2.7,,,0,0
+Aaron,Ramsey,Ramsey,Midfielder,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Jaden,Philogene-Bidace,Philogene-Bidace,Midfielder,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,,,0,0
+Carney,Chukwuemeka,Chukwuemeka,Midfielder,Aston Villa,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+Pontus,Jansson,Jansson,Defender,Brentford,6,6.0,90,0,0,1,0,0,1.1,6.0,45,0.6,,,0,0
+Christian,Nørgaard,Nørgaard,Midfielder,Brentford,8,8.0,90,1,0,1,0,0,8.0,8.0,50,0.8,,,0,0
+Ivan,Toney,Toney,Forward,Brentford,2,2.0,90,0,0,1,0,0,2.6,2.0,65,30.2,,,0,0
+Tariqe,Fosu-Henry,Fosu,Midfielder,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.1,,,0,0
+David,Raya Martin,Raya,Goalkeeper,Brentford,8,8.0,90,0,0,1,0,4,2.8,8.0,45,3.1,,,0,0
+Sergi,Canós,Canós,Midfielder,Brentford,11,11.0,90,1,0,1,0,0,11.0,11.0,55,2.0,,,0,0
+Pelenda Joshua,Dasilva,Dasilva,Midfielder,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,Hip injury - Unknown return date,2021-08-09T06:00:12.543954Z,0,0
+Rico,Henry,Henry,Defender,Brentford,6,6.0,90,0,0,1,0,0,1.7,6.0,45,0.8,,,0,0
+Vitaly,Janelt,Janelt,Midfielder,Brentford,3,3.0,90,0,0,1,0,0,1.0,3.0,50,0.1,,,0,0
+Saman,Ghoddos,Ghoddos,Midfielder,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.1,,,0,0
+Mathias,Jensen,Jensen,Midfielder,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,Foot injury - Unknown return date,2021-08-12T07:00:05.877357Z,0,0
+Charlie,Goode,Goode,Defender,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,40,1.4,,,0,0
+Marcus,Forss,Forss,Forward,Brentford,1,1.0,4,0,0,0,0,0,0.1,1.0,55,0.2,,,0,0
+Mads,Roerslev Rasmussen,Roerslev,Defender,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Mads,Bech Sørensen,Sørensen,Defender,Brentford,1,1.0,19,0,0,0,0,0,0.0,1.0,45,0.1,,,0,0
+Ethan,Pinnock,Pinnock,Defender,Brentford,11,11.0,90,0,1,1,0,0,4.8,11.0,45,2.6,,,0,0
+Ellery,Balcombe,Balcombe,Goalkeeper,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.0,Season long loan to Burton Albion,2021-07-08T07:34:45.360782Z,0,0
+Jan,Zamburek,Zamburek,Midfielder,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.8,,,0,0
+Patrik,Gunnarsson,Gunnarsson,Goalkeeper,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,40,1.4,,,0,0
+Halil,Dervişoğlu,Dervişoğlu,Forward,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,,,0,0
+Bryan,Mbeumo,Mbeumo,Midfielder,Brentford,3,3.0,85,0,0,1,0,0,3.8,3.0,55,1.2,,,0,0
+Mads,Bidstrup,Bidstrup,Midfielder,Brentford,1,1.0,10,0,0,0,0,0,0.5,1.0,45,0.1,,,0,0
+Frank,Onyeka,Onyeka,Midfielder,Brentford,3,3.0,79,0,0,1,0,0,2.5,3.0,50,0.1,,,0,0
+Kristoffer,Ajer,Ajer,Defender,Brentford,6,6.0,70,0,0,1,0,0,2.3,6.0,45,0.8,,,0,0
+Dominic,Thompson,Thompson,Defender,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Shandon,Baptiste,Baptiste,Midfielder,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,,,0,0
+Yoane,Wissa,Wissa,Midfielder,Brentford,0,0.0,0,0,0,0,0,0,0.0,0.0,60,0.1,,,0,0
+Adam,Lallana,Lallana,Midfielder,Brighton,1,1.0,45,0,0,0,0,0,0.7,1.0,55,0.3,,,0,0
+Jason,Steele,Steele,Goalkeeper,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,40,2.6,,,0,0
+Pascal,Groß,Groß,Midfielder,Brighton,6,6.0,90,0,1,0,1,0,7.6,6.0,60,0.6,,,0,0
+Shane,Duffy,Duffy,Defender,Brighton,2,2.0,90,0,0,0,1,0,9.2,2.0,40,4.1,,,0,0
+Davy,Pröpper,Pröpper,Midfielder,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Transferred to PSV Eindhoven,2021-06-25T10:07:47.190365Z,0,0
+Dan,Burn,Burn,Defender,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Knee injury - Unknown return date,2021-08-06T16:30:04.717960Z,0,0
+Lewis,Dunk,Dunk,Defender,Brighton,2,2.0,90,0,0,0,1,0,2.0,2.0,50,6.2,,,0,0
+Solomon,March,March,Midfielder,Brighton,2,2.0,90,0,0,0,1,0,7.5,2.0,55,0.1,,,0,0
+Adam,Webster,Webster,Defender,Brighton,2,2.0,90,0,0,0,1,0,2.6,2.0,45,0.6,,,0,0
+Joël,Veltman,Veltman,Defender,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,3.6,Lack of match fitness - 75% chance of playing,2021-08-14T18:00:09.888942Z,0,0
+Neal,Maupay,Maupay,Forward,Brighton,5,5.0,90,1,0,0,1,0,11.5,5.0,65,2.7,,,1,0
+Leandro,Trossard,Trossard,Midfielder,Brighton,2,2.0,75,0,0,0,1,0,1.2,2.0,65,1.2,,,0,0
+Mathew,Ryan,Ryan,Goalkeeper,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Transferred to Real Sociedad,2021-07-12T23:00:04.491624Z,0,0
+Alireza,Jahanbakhsh,Jahanbakhsh,Midfielder,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,Transferred to Feyenoord,2021-07-20T17:00:05.398504Z,0,0
+Bernardo,Fernandes Da Silva Junior,Bernardo,Defender,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.0,Transferred to RB Salzburg,2021-07-08T07:33:34.790576Z,0,0
+Robert,Sánchez,Sánchez,Goalkeeper,Brighton,2,2.0,90,0,0,0,1,2,3.0,2.0,45,24.6,,,0,0
+Yves,Bissouma,Bissouma,Midfielder,Brighton,2,2.0,90,0,0,0,1,0,1.3,2.0,45,12.9,,,0,0
+Tariq,Lamptey,Lamptey,Defender,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.5,Hamstring injury - Expected back 11 Sep,2021-07-27T10:00:07.150819Z,0,0
+Aaron,Connolly,Connolly,Forward,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.2,,,0,0
+Steven,Alzate,Alzate,Midfielder,Brighton,2,2.0,71,0,0,0,1,0,3.7,2.0,50,0.1,,,0,0
+Alexis,Mac Allister,Mac Allister,Midfielder,Brighton,9,9.0,14,1,0,0,0,0,5.6,9.0,55,0.3,,,0,0
+Jakub,Moder,Moder,Midfielder,Brighton,4,4.0,18,0,1,0,0,0,5.1,4.0,45,0.6,,,0,0
+Danny,Welbeck,Welbeck,Forward,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,60,0.2,Hamstring injury - Expected back 11 Sep,2021-08-02T13:30:12.546776Z,0,0
+Enock,Mwepu,Mwepu,Midfielder,Brighton,1,1.0,45,0,0,0,1,0,1.8,1.0,60,0.1,,,0,0
+Kjell,Scherpen,Scherpen,Goalkeeper,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Ankle injury - Unknown return date,2021-08-08T16:00:04.206498Z,0,0
+Florin,Andone,Andone,Forward,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.2,,,0,0
+Andi,Zeqiri,Zeqiri,Forward,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.3,,,0,0
+Michal,Karbownik,Karbownik,Defender,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.0,,,0,0
+Taylor,Richards,Richards,Midfielder,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+Moisés,Caicedo,Caicedo,Midfielder,Brighton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+James,Tarkowski,Tarkowski,Defender,Burnley,6,6.0,90,1,0,0,2,0,9.4,6.0,50,1.6,,,1,0
+Phil,Bardsley,Bardsley,Defender,Burnley,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.9,,,0,0
+Erik,Pieters,Pieters,Defender,Burnley,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Jack,Cork,Cork,Midfielder,Burnley,2,2.0,84,0,0,0,2,0,1.4,2.0,45,0.1,,,0,0
+Dale,Stephens,Stephens,Midfielder,Burnley,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Ankle injury - Unknown return date,2021-08-02T14:00:11.997802Z,0,0
+Kevin,Long,Long,Defender,Burnley,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.2,Achilles injury - Unknown return date,2021-08-02T14:00:12.013515Z,0,0
+Jay,Rodriguez,Rodriguez,Forward,Burnley,2,2.0,69,0,0,1,0,0,2.6,2.0,55,1.0,,,0,0
+Ashley,Barnes,Barnes,Forward,Burnley,1,1.0,20,0,0,0,2,0,1.2,1.0,55,2.0,,,0,0
+Ben,Mee,Mee,Defender,Burnley,1,1.0,90,0,0,0,2,0,1.7,1.0,50,0.9,,,0,0
+Ashley,Westwood,Westwood,Midfielder,Burnley,7,7.0,90,0,1,0,2,0,6.0,7.0,55,0.7,,,0,0
+Johann Berg,Gudmundsson,Gudmundsson,Midfielder,Burnley,1,1.0,90,0,0,0,2,0,1.2,1.0,55,0.1,,,1,0
+Chris,Wood,Wood,Forward,Burnley,2,2.0,90,0,0,0,2,0,4.1,2.0,70,2.9,,,0,0
+Matthew,Lowton,Lowton,Defender,Burnley,1,1.0,90,0,0,0,2,0,2.9,1.0,45,2.5,,,0,0
+Matej,Vydra,Vydra,Forward,Burnley,1,1.0,5,0,0,0,0,0,1.0,1.0,55,0.9,,,0,0
+Nick,Pope,Pope,Goalkeeper,Burnley,2,2.0,90,0,0,0,2,4,3.0,2.0,55,4.0,,,0,0
+Charlie,Taylor,Taylor,Defender,Burnley,1,1.0,90,0,0,0,2,0,3.2,1.0,45,0.6,,,0,0
+Will,Norris,Norris,Goalkeeper,Burnley,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Josh,Brownhill,Brownhill,Midfielder,Burnley,1,1.0,11,0,0,0,0,0,1.8,1.0,45,4.1,,,0,0
+Josh,Benson,Benson,Midfielder,Burnley,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Transferred to Barnsley,2021-07-31T16:20:53.282166Z,0,0
+Bailey,Peacock-Farrell,Peacock-Farrell,Goalkeeper,Burnley,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Joined Sheffield Wednesday on a season-long loan,2021-07-27T22:30:10.385580Z,0,0
+Dwight,McNeil,McNeil,Midfielder,Burnley,2,2.0,78,0,0,0,2,0,5.2,2.0,60,0.3,,,0,0
+Nathan,Collins,Collins,Defender,Burnley,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Wayne,Hennessey,Hennessey,Goalkeeper,Burnley,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.3,,,0,0
+Lewis,Richardson,Richardson,Forward,Burnley,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Bobby,Thomas,Thomas,Defender,Burnley,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.1,,,0,0
+César,Azpilicueta,Azpilicueta,Defender,Chelsea,6,6.0,66,0,0,1,0,0,2.5,6.0,60,4.2,,,0,0
+Olivier,Giroud,Giroud,Forward,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,65,0.0,Transferred to AC Milan,2021-07-18T11:00:04.218580Z,0,0
+Thiago,Emiliano da Silva,Thiago Silva,Defender,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,55,3.1,,,0,0
+Marcos,Alonso,Alonso,Defender,Chelsea,15,15.0,85,1,0,1,0,0,12.1,15.0,55,4.9,,,0,0
+Jorge Luiz,Frello Filho,Jorginho,Midfielder,Chelsea,3,3.0,90,0,0,1,0,0,4.3,3.0,60,5.3,,,0,0
+Ross,Barkley,Barkley,Midfielder,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.2,,,0,0
+Mateo,Kovacic,Kovacic,Midfielder,Chelsea,6,6.0,90,0,1,1,0,0,5.7,6.0,50,0.6,,,0,0
+Michy,Batshuayi,Batshuayi,Forward,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.2,,,0,0
+Antonio,Rüdiger,Rüdiger,Defender,Chelsea,6,6.0,90,0,0,1,0,0,1.8,6.0,55,7.5,,,0,0
+Kurt,Zouma,Zouma,Defender,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,55,1.3,,,0,0
+Kepa,Arrizabalaga,Arrizabalaga,Goalkeeper,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.3,,,0,0
+N'Golo,Kanté,Kanté,Midfielder,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,50,4.1,Knock - 75% chance of playing,2021-08-13T13:30:14.495722Z,0,0
+Hakim,Ziyech,Ziyech,Midfielder,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,75,0.4,Shoulder injury - Expected back 28 Aug,2021-08-12T06:30:05.630938Z,0,0
+Ruben,Loftus-Cheek,Loftus-Cheek,Midfielder,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.1,,,0,0
+Andreas,Christensen,Christensen,Defender,Chelsea,7,7.0,90,0,0,1,0,0,2.0,7.0,50,1.2,,,0,0
+Timo,Werner,Werner,Forward,Chelsea,2,2.0,90,0,0,1,0,0,4.0,2.0,90,4.6,,,0,0
+Benjamin,Chilwell,Chilwell,Defender,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,60,11.7,,,0,0
+Tammy,Abraham,Abraham,Forward,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,65,0.6,,,0,0
+Christian,Pulisic,Pulisic,Midfielder,Chelsea,8,8.0,81,1,0,1,0,0,8.2,8.0,80,2.0,,,0,0
+Mason,Mount,Mount,Midfielder,Chelsea,6,6.0,90,0,1,1,0,0,6.2,6.0,75,20.7,,,0,0
+Ethan,Ampadu,Ampadu,Defender,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Callum,Hudson-Odoi,Hudson-Odoi,Midfielder,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.2,,,0,0
+Kai,Havertz,Havertz,Midfielder,Chelsea,1,1.0,8,0,0,0,0,0,0.2,1.0,85,10.6,,,0,0
+Reece,James,James,Defender,Chelsea,1,1.0,23,0,0,0,0,0,0.6,1.0,55,6.4,,,0,0
+Edouard,Mendy,Mendy,Goalkeeper,Chelsea,6,6.0,90,0,0,1,0,1,1.1,6.0,60,10.0,,,0,0
+Malang,Sarr,Sarr,Defender,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,,,0,0
+Trevoh,Chalobah,Chalobah,Defender,Chelsea,14,14.0,90,1,0,1,0,0,6.3,14.0,50,1.9,,,0,0
+Romelu,Lukaku,Lukaku,Forward,Chelsea,0,0.0,0,0,0,0,0,0,0.0,0.0,115,11.1,,2021-08-13T13:30:15.492655Z,0,0
+Emerson,Palmieri dos Santos,Emerson,Defender,Chelsea,1,1.0,4,0,0,0,0,0,0.2,1.0,45,0.0,,,0,0
+Conor,Gallagher,Gallagher,Midfielder,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,,2021-08-04T10:30:07.874717Z,0,0
+Vicente,Guaita,Guaita,Goalkeeper,Crystal Palace,2,2.0,90,0,0,0,3,3,2.4,2.0,45,5.2,,,0,0
+James,Tomkins,Tomkins,Defender,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+James,McArthur,McArthur,Midfielder,Crystal Palace,2,2.0,90,0,0,0,3,0,5.5,2.0,45,0.3,,,0,0
+Christian,Benteke,Benteke,Forward,Crystal Palace,1,1.0,33,0,0,0,1,0,0.1,1.0,65,1.4,,,0,0
+Cheikhou,Kouyaté,Kouyaté,Defender,Crystal Palace,1,1.0,90,0,0,0,3,0,1.7,1.0,45,0.5,,,0,0
+Martin,Kelly,Kelly,Defender,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,40,1.2,,,0,0
+Luka,Milivojevic,Milivojevic,Midfielder,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.1,Personal Reasons - Unknown return date,2021-08-13T13:00:14.777540Z,0,0
+Jordan,Ayew,Ayew,Forward,Crystal Palace,2,2.0,90,0,0,0,3,0,4.6,2.0,60,0.8,,,0,0
+Wilfried,Zaha,Zaha,Midfielder,Crystal Palace,2,2.0,90,0,0,0,3,0,2.6,2.0,70,6.7,,,0,0
+Jeffrey,Schlupp,Schlupp,Midfielder,Crystal Palace,1,1.0,56,0,0,0,2,0,0.6,1.0,55,0.1,,,0,0
+Jack,Butland,Butland,Goalkeeper,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.5,,,0,0
+Jairo,Riedewald,Riedewald,Midfielder,Crystal Palace,2,2.0,76,0,0,0,3,0,0.8,2.0,50,0.0,,,0,0
+Jarosław,Jach,Jach,Defender,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Jean-Philippe,Mateta,Mateta,Forward,Crystal Palace,1,1.0,56,0,0,0,2,0,0.8,1.0,55,0.1,,,0,0
+Eberechi,Eze,Eze,Midfielder,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,60,0.0,Achilles injury - Unknown return date,2021-06-22T11:30:10.551607Z,0,0
+Nathan,Ferguson,Ferguson,Defender,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Achilles injury - Expected back 27 Nov,2021-06-22T11:30:10.567164Z,0,0
+Tyrick,Mitchell,Mitchell,Defender,Crystal Palace,1,1.0,90,0,0,0,3,0,0.6,1.0,45,0.7,,,0,0
+Michael,Olise,Olise,Midfielder,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,Back injury - Expected back 11 Sep,2021-08-08T17:30:05.380772Z,0,0
+Joel,Ward,Ward,Defender,Crystal Palace,1,1.0,90,0,0,0,3,0,2.5,1.0,45,0.2,,,0,0
+Marc,Guéhi,Guéhi,Defender,Crystal Palace,1,1.0,90,0,0,0,3,0,2.8,1.0,45,0.3,,,0,0
+Joachim,Andersen,Andersen,Defender,Crystal Palace,1,1.0,33,0,0,0,1,0,1.0,1.0,45,0.5,,,0,0
+Nathaniel,Clyne,Clyne,Defender,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Reece,Hannam,Hannam,Defender,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.0,,,0,0
+Jesurun,Rak-Sakyi,Rak-Sakyi,Midfielder,Crystal Palace,1,1.0,13,0,0,0,0,0,0.6,1.0,45,0.0,,,0,0
+Robert,Street,Street,Forward,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Scott,Banks,Banks,Midfielder,Crystal Palace,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+Fabian,Delph,Delph,Midfielder,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Gylfi,Sigurdsson,Sigurdsson,Midfielder,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,70,1.9,,,0,0
+Seamus,Coleman,Coleman,Defender,Everton,2,2.0,90,0,0,0,1,0,3.7,2.0,50,0.7,,,0,0
+James,Rodríguez,James,Midfielder,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,70,1.6,Illness - Expected back 21 Aug,2021-08-13T12:30:05.505615Z,0,0
+Bernard,Anício Caldeira Duarte,Bernard,Midfielder,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,Transferred to Sharjah FC,2021-07-23T21:30:09.841847Z,0,0
+Lucas,Digne,Digne,Defender,Everton,2,2.0,90,0,0,0,1,0,4.5,2.0,55,18.7,,,0,0
+Michael,Keane,Keane,Defender,Everton,2,2.0,90,0,0,0,1,0,4.7,2.0,50,2.9,,,0,0
+Jordan,Pickford,Pickford,Goalkeeper,Everton,2,2.0,90,0,0,0,1,2,2.0,2.0,50,6.9,,,0,0
+Allan,Marques Loureiro,Allan,Midfielder,Everton,2,2.0,90,0,0,0,1,0,2.0,2.0,45,1.4,,,0,0
+André Filipe,Tavares Gomes,André Gomes,Midfielder,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.2,,,0,0
+Abdoulaye,Doucouré,Doucouré,Midfielder,Everton,8,8.0,90,1,0,0,1,0,8.3,8.0,55,0.6,,,1,0
+Alex,Iwobi,Iwobi,Midfielder,Everton,4,4.0,20,0,1,0,0,0,5.5,4.0,60,0.2,,,0,0
+Yerry,Mina,Mina,Defender,Everton,1,1.0,7,0,0,0,0,0,0.2,1.0,50,0.7,,,0,0
+Tom,Davies,Davies,Midfielder,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,,,0,0
+Dominic,Calvert-Lewin,Calvert-Lewin,Forward,Everton,7,7.0,90,1,0,0,1,0,12.0,7.0,80,12.2,,2021-08-08T18:00:05.235075Z,0,0
+Mason,Holgate,Holgate,Defender,Everton,2,2.0,90,0,0,0,1,0,2.0,2.0,45,0.9,,,0,0
+Ben,Godfrey,Godfrey,Defender,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,50,1.0,,,0,0
+Richarlison,de Andrade,Richarlison,Forward,Everton,11,11.0,88,1,1,0,1,0,13.0,11.0,76,13.9,,,1,0
+João,Virgínia,Virgínia,Goalkeeper,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,40,2.4,,,0,0
+Asmir,Begović,Begović,Goalkeeper,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,40,2.4,,,0,0
+Andros,Townsend,Townsend,Midfielder,Everton,5,5.0,69,0,1,0,1,0,7.1,5.0,55,0.8,,,0,0
+Demarai,Gray,Gray,Midfielder,Everton,2,2.0,82,0,0,0,1,0,3.0,2.0,55,0.4,,,0,0
+Jonjoe,Kenny,Kenny,Defender,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Anthony,Gordon,Gordon,Midfielder,Everton,1,1.0,1,0,0,0,0,0,0.1,1.0,45,0.0,,,0,0
+Jean-Philippe,Gbamin,Gbamin,Midfielder,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+Jarrad,Branthwaite,Branthwaite,Defender,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.0,,,0,0
+Nathan,Broadhead,Broadhead,Forward,Everton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Kasper,Schmeichel,Schmeichel,Goalkeeper,Leicester,9,9.0,90,0,0,1,0,3,2.6,9.0,50,18.9,,,0,0
+Jonny,Evans,Evans,Defender,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.2,Foot injury - Expected back 11 Sep,2021-08-04T10:30:07.908950Z,0,0
+Marc,Albrighton,Albrighton,Midfielder,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.2,,,0,0
+Nampalys,Mendy,Mendy,Midfielder,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.5,,,0,0
+Danny,Ward,Ward,Goalkeeper,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,40,3.7,,,0,0
+Jamie,Vardy,Vardy,Forward,Leicester,5,5.0,90,1,0,1,0,0,12.1,5.0,105,16.5,,,1,0
+Dennis,Praet,Praet,Midfielder,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,,,0,0
+Ricardo Domingos,Barbosa Pereira,Pereira,Defender,Leicester,12,12.0,90,0,1,1,0,0,5.1,12.0,55,4.2,,,0,0
+Daniel,Amartey,Amartey,Defender,Leicester,6,6.0,90,0,0,1,0,0,1.6,6.0,40,16.3,,,0,0
+Timothy,Castagne,Castagne,Defender,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,55,1.0,Lack of match fitness - 75% chance of playing,2021-08-12T15:30:12.093309Z,0,0
+Youri,Tielemans,Tielemans,Midfielder,Leicester,3,3.0,90,0,0,1,0,0,5.8,3.0,65,5.4,,,0,0
+Ayoze,Pérez,Pérez,Midfielder,Leicester,3,3.0,61,0,0,1,0,0,4.4,3.0,60,0.3,,,0,0
+James,Maddison,Maddison,Midfielder,Leicester,3,3.0,61,0,0,1,0,0,2.1,3.0,70,10.4,Knock - 75% chance of playing,2021-08-14T18:00:10.043619Z,0,0
+Kelechi,Iheanacho,Iheanacho,Forward,Leicester,1,1.0,18,0,0,0,0,0,1.3,1.0,75,11.9,,,0,0
+Hamza,Choudhury,Choudhury,Midfielder,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Harvey,Barnes,Barnes,Midfielder,Leicester,3,3.0,71,0,0,1,0,0,2.7,3.0,70,12.8,,,0,0
+Wilfred,Ndidi,Ndidi,Midfielder,Leicester,3,3.0,90,0,0,1,0,0,2.0,3.0,50,1.7,,,0,0
+Çaglar,Söyüncü,Söyüncü,Defender,Leicester,6,6.0,90,0,0,1,0,0,2.4,6.0,50,3.2,,,0,0
+James,Justin,Justin,Defender,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,Knee injury - Unknown return date,2021-06-22T11:30:10.582426Z,0,0
+Luke,Thomas,Thomas,Defender,Leicester,7,7.0,90,0,0,1,0,0,3.1,7.0,45,0.7,,,0,0
+Wesley,Fofana,Fofana,Defender,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.7,Leg injury - Unknown return date,2021-08-04T23:00:11.364712Z,0,0
+Jannik,Vestergaard,Vestergaard,Defender,Leicester,1,1.0,28,0,0,0,0,0,0.4,1.0,50,1.5,,,0,0
+Patson,Daka,Daka,Forward,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,75,1.3,,,0,0
+Boubakary,Soumaré,Soumaré,Midfielder,Leicester,1,1.0,28,0,0,0,0,0,0.4,1.0,50,0.1,,,0,0
+Ryan,Bertrand,Bertrand,Defender,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,50,1.8,Illness - 75% chance of playing,2021-08-14T18:00:10.388506Z,0,0
+Kiernan,Dewsbury-Hall,Dewsbury-Hall,Midfielder,Leicester,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+Pablo,Hernández Domínguez,Hernández,Midfielder,Leeds,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,Left the club at the end of the 2020/21 season,2021-07-19T09:38:55.151396Z,0,0
+Francisco,Casilla Cortés,Casilla,Goalkeeper,Leeds,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Joined Elche CF on a season-long loan - Expected back 01 Jul,2021-07-13T10:00:05.132170Z,0,0
+Liam,Cooper,Cooper,Defender,Leeds,-1,-1.0,90,0,0,0,5,0,3.8,-1.0,45,0.3,,,1,0
+Luke,Ayling,Ayling,Defender,Leeds,6,6.0,90,1,0,0,5,0,7.0,6.0,45,12.6,,,0,0
+Mateusz,Klich,Klich,Midfielder,Leeds,2,2.0,90,0,0,0,5,0,2.1,2.0,55,0.5,,,0,0
+Rodrigo,Moreno,Rodrigo,Forward,Leeds,1,1.0,45,0,0,0,1,0,0.5,1.0,65,1.7,,,0,0
+Stuart,Dallas,Dallas,Midfielder,Leeds,5,5.0,90,0,1,0,5,0,4.3,5.0,55,15.1,,,0,0
+Patrick,Bamford,Bamford,Forward,Leeds,2,2.0,76,0,0,0,5,0,1.8,2.0,80,17.5,,,0,0
+Diego,Llorente,Llorente,Defender,Leeds,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,Knock - Expected back 28 Aug,2021-08-09T12:30:08.525803Z,0,0
+Kalvin,Phillips,Phillips,Midfielder,Leeds,0,0.0,0,0,0,0,0,0,0.0,0.0,50,2.4,,,0,0
+Hélder Wander,Sousa de Azevedo e Costa,Costa,Midfielder,Leeds,1,1.0,21,0,0,0,0,0,0.0,1.0,55,0.2,,,0,0
+Tyler,Roberts,Roberts,Midfielder,Leeds,1,1.0,13,0,0,0,0,0,2.2,1.0,50,0.1,,,0,0
+Robin,Koch,Koch,Defender,Leeds,0,0.0,90,0,0,0,5,0,1.5,0.0,45,0.3,,,0,0
+Ian Carlo,Poveda-Ocampo,Poveda,Midfielder,Leeds,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Raphael,Dias Belloli,Raphinha,Midfielder,Leeds,1,1.0,90,0,0,0,5,0,4.7,1.0,65,17.2,,,1,0
+Jamie,Shackleton,Shackleton,Midfielder,Leeds,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Pascal,Struijk,Struijk,Defender,Leeds,0,0.0,90,0,0,0,5,0,1.6,0.0,45,0.4,,,0,0
+Illan,Meslier,Meslier,Goalkeeper,Leeds,1,1.0,90,0,0,0,5,3,2.2,1.0,50,4.0,,,0,0
+Jack,Harrison,Harrison,Midfielder,Leeds,2,2.0,68,0,0,0,5,0,3.8,2.0,60,4.5,,,0,0
+Héctor Junior,Firpo Adames,Firpo,Defender,Leeds,-1,-1.0,45,0,0,0,4,0,0.5,-1.0,50,0.9,,2021-08-09T12:30:08.650085Z,0,0
+Kristoffer,Klaesson,Klaesson,Goalkeeper,Leeds,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Sam,Greenwood,Greenwood,Forward,Leeds,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.4,,,0,0
+Crysencio,Summerville,Summerville,Midfielder,Leeds,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+Adam,Forshaw,Forshaw,Midfielder,Leeds,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+James,Milner,Milner,Midfielder,Liverpool,2,2.0,90,0,0,1,0,0,4.0,2.0,50,0.1,,,1,0
+Jordan,Henderson,Henderson,Midfielder,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.7,,,0,0
+Adrián,San Miguel del Castillo,Adrián,Goalkeeper,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.3,,,0,0
+Joel,Matip,Matip,Defender,Liverpool,6,6.0,90,0,0,1,0,0,3.3,6.0,50,0.7,,,0,0
+Thiago,Alcántara do Nascimento,Thiago,Midfielder,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,55,1.0,,,0,0
+Xherdan,Shaqiri,Shaqiri,Midfielder,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,60,0.1,,,0,0
+Alex,Oxlade-Chamberlain,Chamberlain,Midfielder,Liverpool,3,3.0,60,0,0,1,0,0,0.7,3.0,60,0.2,,,0,0
+Roberto,Firmino,Firmino,Forward,Liverpool,7,7.0,29,1,0,0,0,0,7.3,7.0,90,6.8,,,0,0
+Virgil,van Dijk,van Dijk,Defender,Liverpool,7,7.0,90,0,0,1,0,0,3.9,7.0,65,13.3,,,0,0
+Sadio,Mané,Mané,Midfielder,Liverpool,3,3.0,90,0,0,1,0,0,11.2,3.0,120,4.1,,,0,0
+Alisson,Ramses Becker,Alisson,Goalkeeper,Liverpool,7,7.0,90,0,0,1,0,3,2.9,7.0,60,6.5,,,0,0
+Fabio Henrique,Tavares,Fabinho,Midfielder,Liverpool,1,1.0,29,0,0,0,0,0,0.6,1.0,55,0.9,,,0,0
+Mohamed,Salah,Salah,Midfielder,Liverpool,17,17.0,90,1,2,1,0,0,17.7,17.0,125,55.3,,,0,0
+Andrew,Robertson,Robertson,Defender,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,70,1.2,Ankle injury - Expected back 12 Sep,2021-08-08T18:30:05.747237Z,0,0
+Divock,Origi,Origi,Forward,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,50,1.2,,,0,0
+Takumi,Minamino,Minamino,Midfielder,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.1,,,0,0
+Trent,Alexander-Arnold,Alexander-Arnold,Defender,Liverpool,6,6.0,90,0,0,1,0,0,7.1,6.0,75,33.3,,,0,0
+Joseph,Gomez,Gomez,Defender,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.8,,,0,0
+Naby,Keita,Keita,Midfielder,Liverpool,3,3.0,82,0,0,1,0,0,3.4,3.0,50,0.2,,,0,0
+Diogo,Jota,Jota,Midfielder,Liverpool,8,8.0,60,1,0,1,0,0,7.6,8.0,75,12.7,,,0,0
+Nathaniel,Phillips,Phillips,Defender,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.3,,,0,0
+Caoimhin,Kelleher,Kelleher,Goalkeeper,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Ibrahima,Konaté,Konaté,Defender,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,55,2.8,,,0,0
+Curtis,Jones,Jones,Midfielder,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,Head injury - Expected back 21 Aug,2021-08-11T07:00:10.868409Z,0,0
+Konstantinos,Tsimikas,Tsimikas,Defender,Liverpool,6,6.0,90,0,0,1,0,0,4.9,6.0,40,25.8,,,0,0
+Neco,Williams,N.Williams,Defender,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.9,,,0,0
+Rhys,Williams,R.Williams,Defender,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Ben,Davies,Davies,Defender,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.5,,,0,0
+Harvey,Elliott,Elliott,Midfielder,Liverpool,1,1.0,7,0,0,0,0,0,0.3,1.0,55,0.1,,,0,0
+Ben,Woodburn,Woodburn,Midfielder,Liverpool,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+Jack,Grealish,Grealish,Midfielder,Man City,1,1.0,90,0,0,0,1,0,11.0,1.0,80,22.9,,,1,0
+Kyle,Walker,Walker,Defender,Man City,0,0.0,0,0,0,0,0,0,0.0,0.0,55,5.8,,,0,0
+Ilkay,Gündogan,Gündogan,Midfielder,Man City,2,2.0,90,0,0,0,1,0,5.2,2.0,75,7.8,Shoulder injury - 75% chance of playing,2021-08-16T06:30:14.498269Z,0,0
+Kevin,De Bruyne,De Bruyne,Midfielder,Man City,1,1.0,11,0,0,0,0,0,2.8,1.0,120,2.5,,2021-08-07T06:30:07.011490Z,0,0
+John,Stones,Stones,Defender,Man City,0,0.0,0,0,0,0,0,0,0.0,0.0,55,11.2,,,0,0
+Benjamin,Mendy,Mendy,Defender,Man City,3,3.0,78,0,0,0,1,0,4.6,3.0,55,1.0,,,0,0
+Riyad,Mahrez,Mahrez,Midfielder,Man City,2,2.0,78,0,0,0,1,0,4.7,2.0,90,7.7,,,0,0
+Raheem,Sterling,Sterling,Midfielder,Man City,2,2.0,69,0,0,0,1,0,3.9,2.0,110,3.1,,,0,0
+João Pedro Cavaco,Cancelo,Cancelo,Defender,Man City,2,2.0,90,0,0,0,1,0,7.2,2.0,60,7.4,,,0,0
+Ederson,Santana de Moraes,Ederson,Goalkeeper,Man City,2,2.0,90,0,0,0,1,1,0.7,2.0,60,10.5,,,0,0
+Nathan,Aké,Aké,Defender,Man City,2,2.0,90,0,0,0,1,0,2.8,2.0,50,0.5,,,0,0
+Aymeric,Laporte,Laporte,Defender,Man City,0,0.0,0,0,0,0,0,0,0.0,0.0,55,1.6,,,0,0
+Zack,Steffen,Steffen,Goalkeeper,Man City,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Bernardo Mota,Veiga de Carvalho e Silva,Bernardo,Midfielder,Man City,0,0.0,0,0,0,0,0,0,0.0,0.0,70,1.3,,,0,0
+Rúben Santos,Gato Alves Dias,Dias,Defender,Man City,2,2.0,90,0,0,0,1,0,2.3,2.0,60,25.6,,,0,0
+Gabriel Fernando,de Jesus,Jesus,Forward,Man City,1,1.0,20,0,0,0,0,0,1.6,1.0,85,3.4,,,0,0
+Oleksandr,Zinchenko,Zinchenko,Defender,Man City,1,1.0,11,0,0,0,0,0,0.3,1.0,55,1.6,,,0,0
+Phil,Foden,Foden,Midfielder,Man City,0,0.0,0,0,0,0,0,0,0.0,0.0,80,1.1,Foot injury - Expected back 11 Sep,2021-08-07T06:30:07.030165Z,0,0
+Rodrigo,Hernandez,Rodrigo,Midfielder,Man City,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.4,,,0,0
+Ferran,Torres,Torres,Midfielder,Man City,2,2.0,90,0,0,0,1,0,4.0,2.0,70,2.0,,,0,0
+Fernando,Luiz Rosa,Fernandinho,Midfielder,Man City,2,2.0,90,0,0,0,1,0,4.8,2.0,50,0.5,,,0,0
+Cole,Palmer,Palmer,Midfielder,Man City,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+Samuel,Edozie,Edozie,Midfielder,Man City,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,,,0,0
+Edinson,Cavani,Cavani,Forward,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,85,6.0,Not available for the match against Leeds on 14/8 - Expected back 22 Aug,2021-08-13T14:00:14.449852Z,0,0
+David,de Gea,de Gea,Goalkeeper,Man Utd,2,2.0,90,0,0,0,1,2,1.3,2.0,50,3.1,,,0,0
+Nemanja,Matic,Matic,Midfielder,Man Utd,1,1.0,21,0,0,0,0,0,0.8,1.0,45,0.3,,,0,0
+Paul,Pogba,Pogba,Midfielder,Man Utd,16,16.0,74,0,4,0,1,0,15.0,16.0,76,10.8,,,0,0
+Harry,Maguire,Maguire,Defender,Man Utd,2,2.0,90,0,0,0,1,0,1.5,2.0,55,12.9,,,0,0
+Frederico,Rodrigues de Paula Santos,Fred,Midfielder,Man Utd,7,7.0,90,1,0,0,1,0,6.2,7.0,50,0.6,,,0,0
+Luke,Shaw,Shaw,Defender,Man Utd,1,1.0,90,0,0,0,1,0,4.1,1.0,55,55.0,,,1,0
+Jesse,Lingard,Lingard,Midfielder,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,70,1.7,Illness - 25% chance of playing,2021-08-13T16:30:12.623694Z,0,0
+Bruno Miguel,Borges Fernandes,Fernandes,Midfielder,Man Utd,20,20.0,90,3,0,0,1,0,20.1,20.0,121,55.9,,,0,0
+Anthony,Martial,Martial,Forward,Man Utd,1,1.0,15,0,0,0,0,0,0.4,1.0,80,1.8,,,0,0
+Alex Nicolao,Telles,Telles,Defender,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,Ankle injury - Expected back 11 Sep,2021-07-27T23:00:11.558371Z,0,0
+Dean,Henderson,Henderson,Goalkeeper,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,50,1.3,Lack of match fitness - 25% chance of playing,2021-08-13T16:30:12.762120Z,0,0
+Marcus,Rashford,Rashford,Midfielder,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,95,0.2,Shoulder injury - Expected back 16 Oct,2021-07-14T09:00:06.779697Z,0,0
+Donny,van de Beek,van de Beek,Midfielder,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,60,0.2,,,0,0
+Victor,Lindelöf,Lindelöf,Defender,Man Utd,5,5.0,90,0,1,0,1,0,4.4,5.0,50,0.8,,,0,0
+Scott,McTominay,McTominay,Midfielder,Man Utd,2,2.0,68,0,0,0,1,0,4.8,2.0,55,0.6,,,0,0
+Eric,Bailly,Bailly,Defender,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,Not available for the match against Leeds on 14/8 - Expected back 22 Aug,2021-08-13T14:00:14.636053Z,0,0
+Daniel,James,James,Midfielder,Man Utd,2,2.0,74,0,0,0,1,0,6.4,2.0,60,0.2,,,0,0
+Aaron,Wan-Bissaka,Wan-Bissaka,Defender,Man Utd,2,2.0,90,0,0,0,1,0,0.9,2.0,55,10.1,,,0,0
+Mason,Greenwood,Greenwood,Midfielder,Man Utd,8,8.0,90,1,0,0,1,0,9.2,8.0,75,8.5,,,0,0
+Brandon,Williams,Williams,Defender,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,40,2.1,,,0,0
+Juan,Mata,Mata,Midfielder,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,,,0,0
+Jadon,Sancho,Sancho,Midfielder,Man Utd,1,1.0,15,0,0,0,0,0,0.7,1.0,95,8.9,,,0,0
+Tom,Heaton,Heaton,Goalkeeper,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.5,,,0,0
+José Diogo,Dalot Teixeira,Dalot,Defender,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Andreas,Pereira,Pereira,Midfielder,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,,,0,0
+Anthony,Elanga,Elanga,Midfielder,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,,,0,0
+Raphaël,Varane,Varane,Defender,Man Utd,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.2,,,0,0
+Joseph,Willock,Willock,Midfielder,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,60,1.6,,,0,0
+Jonjo,Shelvey,Shelvey,Midfielder,Newcastle,1,1.0,69,0,0,0,4,0,1.8,1.0,55,0.1,,,1,0
+Matt,Ritchie,Ritchie,Defender,Newcastle,3,3.0,90,0,1,0,4,0,9.7,3.0,50,0.3,,,0,0
+Ciaran,Clark,Clark,Defender,Newcastle,0,0.0,90,0,0,0,4,0,5.6,0.0,45,0.2,,,0,0
+Karl,Darlow,Darlow,Goalkeeper,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.7,Lack of match fitness - 25% chance of playing,2021-08-13T10:00:09.271609Z,0,0
+Martin,Dubravka,Dubravka,Goalkeeper,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,Foot injury - Unknown return date,2021-07-15T09:00:08.398405Z,0,0
+Callum,Wilson,Wilson,Forward,Newcastle,6,6.0,84,1,0,0,4,0,10.4,6.0,75,7.3,,,0,0
+Jeff,Hendrick,Hendrick,Midfielder,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,,,0,0
+Ryan,Fraser,Fraser,Midfielder,Newcastle,1,1.0,20,0,0,0,0,0,0.5,1.0,55,0.1,,,0,0
+Jamaal,Lascelles,Lascelles,Defender,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.4,,,0,0
+Dwight,Gayle,Gayle,Forward,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.2,,,0,0
+Paul,Dummett,Dummett,Defender,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Calf injury - Unknown return date,2021-08-06T06:30:03.773119Z,0,0
+Javier,Manquillo,Manquillo,Defender,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,40,9.7,,,0,0
+Emil,Krafth,Krafth,Defender,Newcastle,0,0.0,84,0,0,0,4,0,1.5,0.0,45,0.1,,,0,0
+Jacob,Murphy,Murphy,Midfielder,Newcastle,7,7.0,90,1,0,0,4,0,9.4,7.0,50,0.2,,,0,0
+Fabian,Schär,Schär,Defender,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.3,,,0,0
+Isaac,Hayden,Hayden,Midfielder,Newcastle,2,2.0,90,0,0,0,4,0,2.0,2.0,45,0.2,,,0,0
+Allan,Saint-Maximin,Saint-Maximin,Forward,Newcastle,6,6.0,90,0,1,0,4,0,9.8,6.0,65,5.1,,,0,0
+Miguel,Almirón,Almirón,Midfielder,Newcastle,2,2.0,90,0,0,0,4,0,4.2,2.0,55,0.5,,,0,0
+Sean,Longstaff,S.Longstaff,Midfielder,Newcastle,1,1.0,6,0,0,0,0,0,0.5,1.0,45,0.3,,,0,0
+Joelinton Cássio,Apolinário de Lira,Joelinton,Forward,Newcastle,1,1.0,5,0,0,0,0,0,0.1,1.0,60,0.6,,,0,0
+Jamal,Lewis,Lewis,Defender,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Matthew,Longstaff,M.Longstaff,Midfielder,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Federico,Fernández,Fernández,Defender,Newcastle,0,0.0,90,0,0,0,4,0,5.1,0.0,45,0.2,,,0,0
+Freddie,Woodman,Woodman,Goalkeeper,Newcastle,6,6.0,90,0,0,0,4,4,5.1,6.0,45,0.3,,,0,0
+Mark,Gillespie,Gillespie,Goalkeeper,Newcastle,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.2,,,0,0
+Billy,Gilmour,Gilmour,Midfielder,Norwich,2,2.0,90,0,0,0,3,0,1.4,2.0,45,8.9,,,0,0
+Michael,McGovern,McGovern,Goalkeeper,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.7,,,0,0
+Tim,Krul,Krul,Goalkeeper,Norwich,2,2.0,90,0,0,0,3,3,3.1,2.0,45,1.5,,,0,0
+Teemu,Pukki,Pukki,Forward,Norwich,2,2.0,76,0,0,0,3,0,2.3,2.0,60,6.6,,,0,0
+Marco,Stiepermann,Stiepermann,Midfielder,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,Left the club by mutual consent on 30/6. - Unknown return date,2021-07-01T13:30:07.826050Z,0,0
+Lukas,Rupp,Rupp,Midfielder,Norwich,2,2.0,90,0,0,0,3,0,2.8,2.0,45,0.1,,,0,0
+Kenny,McLean,McLean,Midfielder,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,,,0,0
+Grant,Hanley,Hanley,Defender,Norwich,1,1.0,90,0,0,0,3,0,7.0,1.0,45,0.2,,,0,0
+Onel,Hernández,Hernández,Midfielder,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,,,0,0
+Sam,Byram,Byram,Defender,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Hamstring injury - Unknown return date,2021-08-09T19:30:13.347594Z,0,0
+Jordan,Hugill,Hugill,Forward,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,,,0,0
+Kieran,Dowell,Dowell,Midfielder,Norwich,1,1.0,4,0,0,0,0,0,2.9,1.0,55,0.1,,,0,0
+Christoph,Zimmermann,Zimmermann,Defender,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Todd,Cantwell,Cantwell,Midfielder,Norwich,1,1.0,85,0,0,0,3,0,4.5,1.0,55,0.7,,2021-08-08T16:00:04.100803Z,1,0
+Max,Aarons,Aarons,Defender,Norwich,1,1.0,90,0,0,0,3,0,4.3,1.0,45,2.3,,,0,0
+Jacob,Sørensen,Sørensen,Defender,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Przemyslaw,Placheta,Placheta,Midfielder,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,Illness - Unknown return date,2021-08-13T13:30:15.129315Z,0,0
+Adam,Idah,Idah,Forward,Norwich,1,1.0,13,0,0,0,0,0,3.7,1.0,50,0.5,,,0,0
+Josh,Martin,Martin,Midfielder,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,Season long loan to Milton Keynes Dons,2021-07-02T08:46:00.301629Z,0,0
+Andrew,Omobamidele,Omobamidele,Defender,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,40,1.5,Illness - 75% chance of playing,2021-08-13T13:30:15.204866Z,0,0
+Angus,Gunn,Gunn,Goalkeeper,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,40,1.5,,,0,0
+Milot,Rashica,Rashica,Midfielder,Norwich,2,2.0,76,0,0,0,3,0,3.9,2.0,55,0.2,,,0,0
+Ben,Gibson,Gibson,Defender,Norwich,1,1.0,90,0,0,0,3,0,8.4,1.0,45,0.1,,,0,0
+Dimitris,Giannoulis,Giannoulis,Defender,Norwich,1,1.0,90,0,0,0,3,0,3.6,1.0,45,0.1,,,0,0
+Pierre,Lees-Melou,Lees-Melou,Midfielder,Norwich,2,2.0,90,0,0,0,3,0,6.3,2.0,50,0.1,,,0,0
+Bali,Mumba,Mumba,Defender,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.4,,,0,0
+Joshua,Sargent,Sargent,Forward,Norwich,1,1.0,13,0,0,0,0,0,0.7,1.0,55,0.1,,,0,0
+Christos,Tzolis,Tzolis,Midfielder,Norwich,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,,,0,0
+Theo,Walcott,Walcott,Midfielder,Southampton,2,2.0,79,0,0,0,2,0,0.9,2.0,60,0.3,,,0,0
+Fraser,Forster,Forster,Goalkeeper,Southampton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,1.2,,,0,0
+Alex,McCarthy,McCarthy,Goalkeeper,Southampton,2,2.0,90,0,0,0,3,3,2.2,2.0,45,1.6,,,0,0
+Oriol,Romeu Vidal,Romeu,Midfielder,Southampton,2,2.0,79,0,0,0,2,0,2.2,2.0,45,0.6,,,0,0
+Nathan,Redmond,Redmond,Midfielder,Southampton,1,1.0,7,0,0,0,0,0,0.6,1.0,60,0.1,,,0,0
+Jack,Stephens,Stephens,Defender,Southampton,1,1.0,90,0,0,0,3,0,1.3,1.0,45,0.1,,,0,0
+Stuart,Armstrong,S.Armstrong,Midfielder,Southampton,0,0.0,0,0,0,0,0,0,0.0,0.0,60,0.4,,,0,0
+James,Ward-Prowse,Ward-Prowse,Midfielder,Southampton,2,2.0,90,0,0,0,3,0,5.2,2.0,65,4.2,,2021-08-06T06:30:03.792978Z,0,0
+Kyle,Walker-Peters,Walker-Peters,Defender,Southampton,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.8,,,0,0
+Jan,Bednarek,Bednarek,Defender,Southampton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,1.1,,,0,0
+Daniel,N'Lundulu,Nlundulu,Forward,Southampton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Joined Lincoln City on a season-long loan - Expected back 01 Jul,2021-07-14T19:01:37.238557Z,0,0
+Che,Adams,Adams,Forward,Southampton,5,5.0,90,0,1,0,3,0,5.5,5.0,70,1.8,,,0,0
+Nathan,Tella,Tella,Midfielder,Southampton,1,1.0,10,0,0,0,1,0,0.3,1.0,50,0.1,,,0,0
+William,Smallbone,Smallbone,Midfielder,Southampton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Knee injury - Unknown return date,2021-06-22T11:30:10.599194Z,0,0
+Michael,Obafemi,Obafemi,Forward,Southampton,0,0.0,0,0,0,0,0,0,0.0,0.0,45,13.1,,,0,0
+Ibrahima,Diallo,Diallo,Midfielder,Southampton,1,1.0,10,0,0,0,1,0,2.0,1.0,45,0.1,,,0,0
+Moussa,Djenepo,Djenepo,Midfielder,Southampton,2,2.0,90,0,0,0,3,0,3.8,2.0,55,0.1,,,0,0
+Mohammed,Salisu,Salisu,Defender,Southampton,1,1.0,90,0,0,0,3,0,4.4,1.0,45,0.1,,,0,0
+Romain,Perraud,Perraud,Defender,Southampton,1,1.0,82,0,0,0,3,0,1.9,1.0,50,0.1,,,0,0
+Tino,Livramento,Livramento,Defender,Southampton,1,1.0,90,0,0,0,3,0,3.5,1.0,40,1.9,,,0,0
+Mohamed,Elyounoussi,Elyounoussi,Midfielder,Southampton,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,,,0,0
+Armando,Broja,Broja,Forward,Southampton,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.8,,,0,0
+Shane,Long,Long,Forward,Southampton,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.2,,,0,0
+Adam,Armstrong,A.Armstrong,Forward,Southampton,6,6.0,90,1,0,0,3,0,7.4,6.0,60,1.8,,,0,0
+Yan,Valery,Valery,Defender,Southampton,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.1,,,0,0
+Joe,Hart,Hart,Goalkeeper,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Transferred to Celtic,2021-08-04T08:23:39.667120Z,0,0
+Hugo,Lloris,Lloris,Goalkeeper,Spurs,10,10.0,90,0,0,1,0,4,3.2,10.0,55,4.0,,,0,0
+Moussa,Sissoko,Sissoko,Midfielder,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,45,1.5,,,0,0
+Toby,Alderweireld,Alderweireld,Defender,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,Transferred to Al-Duhail SC,2021-07-27T14:30:07.238332Z,0,0
+Erik,Lamela,Lamela,Midfielder,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,60,0.0,Transferred to Sevilla,2021-07-27T08:24:25.288357Z,0,0
+Harry,Kane,Kane,Forward,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,125,11.5,Lack of match fitness - 75% chance of playing,2021-08-13T14:30:15.738576Z,0,0
+Serge,Aurier,Aurier,Defender,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.7,,,0,0
+Heung-Min,Son,Son,Midfielder,Spurs,10,10.0,90,1,0,1,0,0,9.4,10.0,100,22.5,,,0,0
+Matt,Doherty,Doherty,Defender,Spurs,1,1.0,7,0,0,0,0,0,0.3,1.0,50,0.8,,,0,0
+Eric,Dier,Dier,Defender,Spurs,7,7.0,90,0,0,1,0,0,1.7,7.0,45,2.1,,,0,0
+Lucas,Rodrigues Moura da Silva,Lucas Moura,Midfielder,Spurs,2,2.0,90,0,0,1,0,0,9.7,2.0,65,1.1,,,1,0
+Bamidele,Alli,Dele,Midfielder,Spurs,3,3.0,90,0,0,1,0,0,1.5,3.0,65,1.4,,,0,0
+Ben,Davies,Davies,Defender,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.3,,,0,0
+Pierre-Emile,Højbjerg,Højbjerg,Midfielder,Spurs,3,3.0,89,0,0,1,0,0,4.6,3.0,50,3.0,,,0,0
+Harry,Winks,Winks,Midfielder,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,45,1.2,,,0,0
+Davinson,Sánchez,Sánchez,Defender,Spurs,5,5.0,90,0,0,1,0,0,2.5,5.0,45,0.8,,,1,0
+Ryan,Sessegnon,Sessegnon,Defender,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Steven,Bergwijn,Bergwijn,Midfielder,Spurs,6,6.0,76,0,1,1,0,0,6.8,6.0,60,0.5,,,0,0
+Sergio,Reguilón,Reguilón,Defender,Spurs,7,7.0,90,0,0,1,0,0,3.8,7.0,50,3.6,,,0,0
+Japhet,Tanganga,Tanganga,Defender,Spurs,6,6.0,82,0,0,1,0,0,2.2,6.0,45,0.7,,2021-06-22T11:30:10.616221Z,0,0
+Giovani,Lo Celso,Lo Celso,Midfielder,Spurs,1,1.0,13,0,0,0,0,0,0.6,1.0,60,0.2,,,0,0
+Oliver,Skipp,Skipp,Midfielder,Spurs,3,3.0,90,0,0,1,0,0,1.7,3.0,45,0.5,,,0,0
+Joe,Rodon,Rodon,Defender,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Tanguy,Ndombele,Ndombele,Midfielder,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,60,0.3,,,0,0
+Pierluigi,Gollini,Gollini,Goalkeeper,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.3,,,0,0
+Bryan,Gil Salvatierra,Bryan,Midfielder,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,60,0.1,,2021-08-13T14:30:15.963382Z,0,0
+Cristian,Romero,Romero,Defender,Spurs,1,1.0,1,0,0,0,0,0,0.0,1.0,50,0.4,,2021-08-09T16:30:10.964036Z,0,0
+Dane,Scarlett,Scarlett,Forward,Spurs,0,0.0,0,0,0,0,0,0,0.0,0.0,45,2.1,,,0,0
+Ben,Foster,Foster,Goalkeeper,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,40,27.8,,,0,0
+Danny,Rose,Rose,Defender,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.6,,,0,0
+Dan,Gosling,Gosling,Midfielder,Watford,1,1.0,21,0,0,0,2,0,0.3,1.0,50,0.1,,,0,0
+Craig,Cathcart,Cathcart,Defender,Watford,1,1.0,90,0,0,0,2,0,1.3,1.0,45,0.2,,,0,0
+Troy,Deeney,Deeney,Forward,Watford,1,1.0,11,0,0,0,1,0,0.2,1.0,55,3.2,,,0,0
+Tom,Cleverley,Cleverley,Midfielder,Watford,5,5.0,78,0,1,0,1,0,3.7,5.0,50,0.2,,,0,0
+Francisco,Femenía Far,Femenía,Defender,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Andre,Gray,Gray,Forward,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.3,,,0,0
+Christian,Kabasele,Kabasele,Defender,Watford,1,1.0,90,0,0,0,2,0,2.4,1.0,45,0.1,,,0,0
+Nathaniel,Chalobah,Chalobah,Midfielder,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,Illness - Expected back 21 Aug,2021-08-12T12:00:08.997086Z,0,0
+Will,Hughes,Hughes,Midfielder,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,,,0,0
+William,Troost-Ekong,Troost-Ekong,Defender,Watford,1,1.0,90,0,0,0,2,0,0.8,1.0,45,0.1,,,0,0
+Stipe,Perica,Perica,Forward,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,4.0,Transferred to Maccabi Tel Aviv,2021-08-14T18:30:10.219289Z,0,0
+Daniel,Bachmann,Bachmann,Goalkeeper,Watford,1,1.0,90,0,0,0,2,0,0.3,1.0,45,2.2,,,0,0
+Adam,Masina,Masina,Defender,Watford,1,1.0,90,0,0,0,2,0,0.8,1.0,45,0.1,,,0,0
+Ken,Sema,Sema,Midfielder,Watford,1,1.0,90,0,0,0,2,0,3.7,1.0,55,0.1,,,1,0
+Philip,Zinckernagel,Zinckernagel,Midfielder,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,Joined Nottingham Forest on a season-long loan - Expected back 01 Jul,2021-08-08T12:00:11.230037Z,0,0
+Isaac,Success Ajayi,Success,Forward,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.6,,,0,0
+Ayotomiwa,Dele-Bashiru,Dele-Bashiru,Midfielder,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Joined Reading on a season-long loan - Expected back 01 Jul,2021-08-13T09:00:11.852434Z,0,0
+Ashley,Fletcher,Fletcher,Forward,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.3,,,0,0
+Francisco,Sierralta,Sierralta,Defender,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Domingos,Quina,Quina,Midfielder,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Marc,Navarro,Navarro,Defender,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.8,,,0,0
+Ismaila,Sarr,Sarr,Midfielder,Watford,9,9.0,90,1,0,0,2,0,13.9,9.0,60,4.1,,,0,0
+Jeremy,Ngakia,Ngakia,Defender,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Ben,Wilmot,Wilmot,Defender,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Transferred to  Stoke City,2021-06-25T10:10:54.512279Z,0,0
+Joseph,Hungbo,Hungbo,Midfielder,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+Imrân,Louza,Louza,Midfielder,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,,,0,0
+João Pedro,Junqueira de Jesus,João Pedro,Forward,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.2,Knee injury - Unknown return date,2021-08-12T12:00:09.007012Z,0,0
+Kwadwo,Baah,Baah,Midfielder,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Emmanuel,Dennis,Dennis,Forward,Watford,12,12.0,65,1,1,1,0,0,18.3,12.0,50,2.8,Knock - 75% chance of playing,2021-08-14T18:30:10.328920Z,0,0
+Matthew,Pollock,Pollock,Defender,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.9,,,0,0
+Oghenekaro Peter,Etebo,Etebo,Midfielder,Watford,1,1.0,90,0,0,0,2,0,3.0,1.0,45,0.2,,,1,0
+Joshua,King,King,Forward,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.3,Groin Injury - Expected back 21 Aug,2021-08-12T12:00:09.067582Z,0,0
+Adedapo,Awokoya-Mebude,Mebude,Forward,Watford,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.3,Season long loan to AFC Wimbledon,2021-08-10T08:33:41.561267Z,0,0
+Juan Camilo,Hernández Suárez,Cucho,Forward,Watford,6,6.0,24,1,0,0,2,0,6.3,6.0,50,1.0,,,0,0
+Juraj,Kucka,Kucka,Midfielder,Watford,2,2.0,68,0,0,1,0,0,1.1,2.0,55,0.0,,,1,0
+Mark,Noble,Noble,Midfielder,West Ham,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.7,,,0,0
+Darren,Randolph,Randolph,Goalkeeper,West Ham,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Lukasz,Fabianski,Fabianski,Goalkeeper,West Ham,1,1.0,90,0,0,0,2,1,1.3,1.0,50,2.1,,,0,0
+Angelo,Ogbonna,Ogbonna,Defender,West Ham,1,1.0,90,0,0,0,2,0,1.3,1.0,50,0.1,,2021-08-10T08:00:10.277396Z,0,0
+Winston,Reid,Reid,Defender,West Ham,0,0.0,0,0,0,0,0,0,0.0,0.0,40,2.0,,,0,0
+Aaron,Cresswell,Cresswell,Defender,West Ham,7,7.0,90,1,0,0,2,0,9.1,7.0,55,18.1,,,0,0
+Andriy,Yarmolenko,Yarmolenko,Midfielder,West Ham,1,1.0,1,0,0,0,0,0,0.1,1.0,55,0.3,,,0,0
+Michail,Antonio,Antonio,Forward,West Ham,13,13.0,90,1,2,0,2,0,12.9,13.0,75,26.3,,,0,0
+Craig,Dawson,Dawson,Defender,West Ham,1,1.0,90,0,0,0,2,0,4.4,1.0,50,0.3,,,0,0
+Ryan,Fredericks,Fredericks,Defender,West Ham,1,1.0,2,0,0,0,0,0,0.0,1.0,45,0.2,,,0,0
+Manuel,Lanzini,Lanzini,Midfielder,West Ham,0,0.0,0,0,0,0,0,0,0.0,0.0,60,0.1,,2021-08-13T13:00:15.122575Z,0,0
+Arthur,Masuaku,Masuaku,Defender,West Ham,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,Lack of match fitness - 75% chance of playing,2021-08-10T08:00:10.295760Z,0,0
+Vladimir,Coufal,Coufal,Defender,West Ham,1,1.0,90,0,0,0,2,0,5.0,1.0,50,13.2,,,0,0
+Saïd,Benrahma,Benrahma,Midfielder,West Ham,12,12.0,87,1,1,0,2,0,12.8,12.0,60,8.3,,,0,0
+Jarrod,Bowen,Bowen,Midfielder,West Ham,2,2.0,89,0,0,0,2,0,7.2,2.0,65,1.6,,,0,0
+Declan,Rice,Rice,Midfielder,West Ham,2,2.0,90,0,0,0,2,0,5.9,2.0,50,4.5,,,0,0
+Tomas,Soucek,Soucek,Midfielder,West Ham,8,8.0,90,1,0,0,2,0,15.0,8.0,60,11.2,,,0,0
+Pablo,Fornals,Fornals,Midfielder,West Ham,5,5.0,90,0,1,0,2,0,11.1,5.0,60,0.4,,,0,0
+Issa,Diop,Diop,Defender,West Ham,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.5,,,0,0
+Ben,Johnson,Johnson,Defender,West Ham,1,1.0,1,0,0,0,0,0,0.1,1.0,40,2.5,,,0,0
+Alphonse,Areola,Areola,Goalkeeper,West Ham,0,0.0,0,0,0,0,0,0,0.0,0.0,50,1.3,,,0,0
+Frederik,Alves,Alves,Defender,West Ham,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.5,Joined Sunderland on a season-long loan - Expected back 01 Jul,2021-08-14T17:00:13.907661Z,0,0
+Conor,Coventry,Coventry,Midfielder,West Ham,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Jamal,Baptiste,Baptiste,Defender,West Ham,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.0,,,0,0
+João Filipe Iria,Santos Moutinho,Moutinho,Midfielder,Wolves,2,2.0,65,0,0,0,1,0,2.3,2.0,50,0.5,,,0,0
+Rui Pedro,dos Santos Patrício,Patrício,Goalkeeper,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.0,Transferred to Roma,2021-07-14T07:47:44.687993Z,0,0
+Willy,Boly,Boly,Defender,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.1,Hamstring injury - 25% chance of playing,2021-08-09T18:30:12.373456Z,0,0
+Conor,Coady,Coady,Defender,Wolves,2,2.0,90,0,0,0,1,0,1.1,2.0,45,7.1,,,0,0
+Raúl,Jiménez,Jiménez,Forward,Wolves,2,2.0,90,0,0,0,1,0,5.9,2.0,75,3.5,,,0,0
+Romain,Saïss,Saïss,Defender,Wolves,2,2.0,90,0,0,0,1,0,3.3,2.0,50,0.6,,,0,0
+Fernando,Marçal,Marçal,Defender,Wolves,1,1.0,90,0,0,0,1,0,4.0,1.0,45,0.1,,,1,0
+Jonathan,Castro Otto,Jonny,Defender,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Knee injury - Unknown return date,2021-06-22T11:30:10.631811Z,0,0
+Leander,Dendoncker,Dendoncker,Midfielder,Wolves,1,1.0,24,0,0,0,0,0,1.2,1.0,50,0.2,,,0,0
+Adama,Traoré,Traoré,Midfielder,Wolves,2,2.0,90,0,0,0,1,0,12.1,2.0,60,1.1,,,0,0
+Rúben Diogo,da Silva Neves,Neves,Midfielder,Wolves,2,2.0,90,0,0,0,1,0,4.5,2.0,55,1.5,,,0,0
+Nélson,Cabral Semedo,Semedo,Defender,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,50,1.6,,,0,0
+Daniel,Castelo Podence,Podence,Midfielder,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,55,0.0,Groin Injury - Unknown return date,2021-06-22T11:30:10.652938Z,0,0
+Max,Kilman,Kilman,Defender,Wolves,2,2.0,90,0,0,0,1,0,7.9,2.0,45,0.2,,,0,0
+Morgan,Gibbs-White,Gibbs-White,Midfielder,Wolves,1,1.0,4,0,0,0,0,0,2.0,1.0,45,0.5,,,0,0
+Pedro,Lomba Neto,Neto,Midfielder,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,65,0.0,Knee injury - Unknown return date,2021-06-22T11:30:10.668592Z,0,0
+Owen,Otasowie,Otasowie,Midfielder,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.3,,,0,0
+Ki-Jana,Hoever,Hoever,Defender,Wolves,1,1.0,90,0,0,0,1,0,3.6,1.0,40,2.2,,,1,0
+Andreas,Söndergaard,Söndergaard,Goalkeeper,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,40,1.3,,,0,0
+Fabio,Silva,Fabio Silva,Forward,Wolves,1,1.0,1,0,0,0,0,0,0.0,1.0,60,0.9,,,0,0
+Yerson,Mosquera Valdelamar,Mosquera,Defender,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,Hamstring injury - 25% chance of playing,2021-08-09T18:30:12.430525Z,0,0
+John,Ruddy,Ruddy,Goalkeeper,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.2,,,0,0
+Francisco,Machado Mota de Castro Trincão,Trincão,Midfielder,Wolves,2,2.0,85,0,0,0,1,0,6.4,2.0,60,0.4,,,0,0
+Rayan,Ait Nouri,Ait Nouri,Defender,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.6,,,0,0
+José,Malheiro de Sá,Sá,Goalkeeper,Wolves,3,3.0,90,0,0,0,1,4,2.6,3.0,50,0.4,,,0,0
+Patrick,Cutrone,Cutrone,Forward,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,50,0.2,Season long loan to Empoli,2021-08-15T12:06:51.809579Z,0,0
+Luke,Cundle,Cundle,Midfielder,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.0,,,0,0
+Chem,Campbell,Campbell,Midfielder,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,45,0.1,,,0,0
+Christian,Marques,Marques,Defender,Wolves,0,0.0,0,0,0,0,0,0,0.0,0.0,40,0.1,,,0,0

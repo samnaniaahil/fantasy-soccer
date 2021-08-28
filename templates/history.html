@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <div id="history-div">
+        <h1 id="history-title">Transfer History</h1>
+        <div>
+            <form action="/history" method="post">
+                <button class="btn-custom" id="history-clear-btn" type="submit">Clear History</button>
+            </form> 
+        </div>
+        <table id="history-table">
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Team</th>
+                <th>Cost (&#163;)</th>
+                <th>Time</th>
+                <th>Type</th>
+            </tr>
+            {% for transfer in transfers %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    <!-- Display all columns in transfers execpt id and user_id-->
+                    {% for i in range(2, transfer|length) %}
+                        <td>{{ transfer[i] }}</td>
+                    {% endfor %}
+                </tr>
+                
+            {% endfor %}
+        </table>
+    </div>
+{% endblock %}
