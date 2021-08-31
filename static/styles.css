@@ -30,6 +30,7 @@ body {
     color: purple;
 }
 
+/* Customize bootstrap primary btn */
 .btn-custom {
     background-color: purple;
     color: white;    
@@ -39,10 +40,13 @@ body {
     padding-right: 12px;
     border-radius: 5px;
 }
-
 .btn-custom:hover {
     background-color: darkorchid;
     color: white;
+    outline-color: none;
+}
+.btn-custom:focus {
+    outline-color: darkorchid;
 }
 
 input:focus {

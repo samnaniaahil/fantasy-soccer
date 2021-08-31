@@ -6,8 +6,9 @@
 
 {% block main %}
     <div id="player">
-        <h2 id="player-name">{{ player_info["name"] }}</h2>
-        <p id="player-position">{{ player_info["position"] }}</p>
+        
+        <h2 id="player-name">{{ player_dict["name"] }}</h2>
+        <p id="player-position">{{ player_dict["position"] }}</p>
 
         <div id="player-btns">
             {% if not player_in_team %}
@@ -27,33 +28,33 @@
 
         <img id = "player-picture"
         src="{{ 'https://resources.premierleague.com/premierleague/photos/players/110x140/p'
-                    + player_code|string + '.png' }}" 
-        alt="{{ player_info['name'] }} Picture">
+                    + player_dict['code']|string + '.png' }}" 
+        alt="{{ player_dict['name'] }} Picture">
 
         <div id="player-info-row">
             <div class="player-info-column">
                 <h4 class="player-info-title">Team</h4>
-                <p class="player-info-detail">{{ player_info["team"] }}</p>
+                <p class="player-info-detail">{{ player_dict["team"] }}</p>
             </div>
             
             <div class="player-info-column">
                 <h4 class="player-info-title">Cost</h4>
-                <p class="player-info-detail">&#163;{{ player_info["now_cost"]}}</p>
+                <p class="player-info-detail">&#163;{{ player_dict["now_cost"]}}</p>
             </div>
 
             <div class="player-info-column">
                 <h4 class="player-info-title">Form</h4>
-                <p class="player-info-detail">{{ player_info["form"] }}</p>
+                <p class="player-info-detail">{{ player_dict["form"] }}</p>
             </div>
         </div>
         
-        {% if player_news %}
+        {% if player_dict["news"] %}
         <div>
             <h4 id="player-info-title">News</h4>
             <p class="player-info-detail">
-                {{ player_news }}.
+                {{ player_dict["news"] }}.
                 <br>
-                Updated {{ player_news_date }}.
+                Updated {{ player_dict["news_added"] }}.
             </p>
         </div>
         {% endif %}
@@ -67,12 +68,4 @@
             </details>
         </div>
     </div>
-
-    <script>
-        function resizeTable() {
-            if (window.innerWidth <= 900) {
-                console.log("yes");
-            }
-        }
-    </script>
 {% endblock %}

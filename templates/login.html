@@ -15,7 +15,13 @@
         <input type="text" class="login-field" name="password" autocomplete="off" placeholder="Password">
     </div>
 
-    <p class="error-msg">{{ error_msg }}</p>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %} 
+            {% for message in messages %}
+                <p class="error-msg">{{ message }}</p>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
 
     <button class="btn-custom" type="submit">Login</button>
 </form>
