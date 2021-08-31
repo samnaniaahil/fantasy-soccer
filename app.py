@@ -242,7 +242,7 @@ def display_player():
     if len(player_df_row) == 0:
         return redirect("/players")
     else:
-        player_dict = create_player_dict()
+        player_dict = create_player_dict(player_df_row)
 
     # Get player code to retreive image of player from soccer API in player.html
     player_dict["code"] = list(elements_df["code"].loc[elements_df["name"] == player])[0]
@@ -287,7 +287,7 @@ def players():
         if len(player_df_row) == 0:
             return redirect("/players")
         else:
-            player_dict = create_player_dict()
+            player_dict = create_player_dict(player_df_row)
             
         con = sqlite3.connect(db)
         cur = con.cursor()
