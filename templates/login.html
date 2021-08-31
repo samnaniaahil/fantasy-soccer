@@ -7,12 +7,12 @@
 {% block main %}
 <h1 id="login-title">Login</h1>
 
-<form class = "search" action="/login" method="post" id="login-form">
+<form class = "search" action="/login" method="post" class="input-form">
     <div>
-        <input type="text" class="login-field" name="username" autocomplete="off" placeholder="Username">
+        <input type="text" class="input-field" name="username" autocomplete="off" placeholder="Username">
     </div>
     <div>
-        <input type="text" class="login-field" name="password" autocomplete="off" placeholder="Password">
+        <input type="text" class="input-field" name="password" autocomplete="off" placeholder="Password">
     </div>
 
     {% with messages = get_flashed_messages() %}

@@ -1,31 +1,26 @@
-/* General */
+/* 
+General 
+*/
 main {
     text-align: center;
 }
 
-body {
-    color: black;
-}
-
+/* Customize bootstrap navbar */
 .navbar-brand
 {
     font-size: 25px;
     color: black;
 }
-
 .navbar-brand:hover
 {
     color: purple;
 }
-
 .nav-link {
     color: black;
 }
-
 .nav-link:hover {
     color: purple;
 }
-
 .nav-purple {
     color: purple;
 }
@@ -49,6 +44,7 @@ body {
     outline-color: darkorchid;
 }
 
+/* Customize bootstrap input field */
 input:focus {
     outline-color: purple;
 }
@@ -74,6 +70,17 @@ input:focus {
     color: red;
 }
 
+.input-form {
+    margin-top: 3vh;
+}
+
+.input-field {
+    width: 230px;
+    margin-bottom: 25px;
+    padding: 3px;
+}
+
+/* Auto-generated HTML table from pandas DataFrame using to_html() */
 .dataframe {
     margin-left: auto;
     margin-right: auto;
@@ -82,13 +89,11 @@ input:focus {
     width: 90%;
     font-size: 18px;
 }
-
 .dataframe th, .dataframe td {
     text-align: center;
     padding: 10px;
     border: none;
 }
-
 @media(max-width: 900px) {
     .dataframe {
         margin-left: auto;
@@ -105,7 +110,10 @@ input:focus {
     }
 }
 
-/* Home */
+
+/* 
+Index
+*/
 .overlay {
     height: 100vh;
     padding-top: 25vh;
@@ -113,9 +121,6 @@ input:focus {
     text-align: center;
     background-color: #a4508b;
     background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
-    /*background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("home.png");*/
 }
 
 #index-title {
@@ -131,61 +136,81 @@ input:focus {
     margin-top: 20vw;
 }
 
-/* Players */
-#players-intro {
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 40px;
+
+/* 
+History 
+*/
+#history-div {
+    height: 100vh;
 }
 
-#players-search-btn {
-    margin-top: 15px;
-}
-
-/* Filter/Search list */
-#players-title {
-    font-size: 60px;
-}
-
-#players-subtitle {
-    font-size: 18px;
-}
-
-#players-list {
-    list-style-type: none;
-    padding-left: 0;
+#history-title {
     margin-top: 3vh;
-    display: none;
-    text-align: center;  
 }
 
-.players-name-btn {
-    background-color: white;
-    margin: 3px;
-    width: 300px;
-    text-align: left;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
+#history-clear-btn {
+    margin-top: 30px;
 }
 
-.players-name-btn:hover {
-    background-color: purple;
-    color: white;
-    outline: black;
+#history-table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+}
+#history-table th, td {
+    padding: 15px;
+}
+#history-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+@media(max-width: 670px) {
+    #history-table {
+        font-size: 11px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #history-clear-btn {
+        font-size: 12px;
+    }
 }
 
-.players-name-btn:focus, .players-name-btn:active {
-    outline-color: black;
+
+/*
+League 
+*/
+#league-title {
+    padding-top: 3vh;
 }
 
-#players-input {
-    display: none;
+#league-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+#league-table th, td {
+    padding: 15px;
+}
+#league-table tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 
-/* Player */
-#player {
-    text-align: center;
+.league-medal {
+    height: 30px;
+}
+
+
+/* 
+Login 
+*/
+#login-title {
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+}
+
+
+/* 
+Player 
+*/
+#player-div {
     margin-top: 3vh;
 }
 
@@ -201,7 +226,6 @@ input:focus {
 #player-picture {
     margin-bottom: 10px;
     height: 20vh;
-    width: auto;
 }
 
 #player-btns {
@@ -225,29 +249,102 @@ input:focus {
     font-size: 25px;
     margin-top: 20px;
 }
-
 .player-info-detail {
     font-size: 18px;
 }
 
-#player-stats {
+#player-stats-div {
     margin-top: 80px;
     margin-bottom: 100px;
 }
-
 #player-stats-title {
     font-size: 25px;
 }
-
 #player-stats-table {
     margin-top: 20px;
 }
 
-/* Team */
-#team {
+
+/*
+Players
+*/
+#players-intro {
     text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
+#players-title {
+    font-size: 60px;
+}
+
+#players-subtitle {
+    font-size: 18px;
+}
+
+#players-search-btn {
+    margin-top: 15px;
+}
+
+/* Filter/Search list */
+#players-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 3vh;
+    display: none;
+    text-align: center;  
+}
+.players-name-btn {
+    background-color: white;
+    margin: 3px;
+    width: 300px;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.players-name-btn:hover {
+    background-color: purple;
+    color: white;
+    outline: black;
+}
+.players-name-btn:focus, .players-name-btn:active {
+    outline-color: black;
+}
+#players-input {
+    display: none;
+}
+
+
+/* 
+Register 
+*/
+#register-div {
+    height: 100vh;
+}
+
+#register-title {
+    padding-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+#register-dropdown {
+    margin-top: 8vh;
+}
+#register-dropdown-title {
+    font-size: 20px;
+}
+#register-dropdown-list {
+    margin-top: 10px;
+    display: inline-block; 
+	text-align: left; 
+    margin-left: 35px;
+}
+
+
+/* 
+Team 
+*/
 #team-title {
     font-size: 50px;
     margin-top: 2vw;
@@ -305,23 +402,21 @@ input:focus {
 #team-tooltip {
     font-size: 15px;
 }
-
 #team-tooltip-icon {
     height: 1.8vh;
 }
 
+/* Status alert of adding or deleting player */
 #team-alert-div {
     width: 80%;
     margin: auto;
 }
-
 #team-alert {
     padding: 20px;
     background-color: purple;
     color: white;
     border-radius: 5px;
 }
-
 #closebtn {
     margin-top: 0.5vh;
     margin-right: 1vh;
@@ -332,119 +427,7 @@ input:focus {
     line-height: 20px;
     cursor: pointer;
     transition: 0.3s;
-  }
-  
+}
 #closebtn:hover {
     color: white;
-}
-
-/* History */
-#history-div {
-    text-align: center;
-    height: 100vh;
-}
-
-#history-title {
-    margin-top: 3vh;
-}
-
-#history-clear-btn {
-    margin-top: 30px;
-}
-
-#history-table {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2vw;
-}
-
-@media(max-width: 670px) {
-    #history-table {
-        font-size: 11px;
-        margin-left: 1%;
-        margin-right: 1%;
-    }
-    #history-clear-btn {
-        font-size: 12px;
-    }
-}
-
-#history-table th, td {
-    padding: 15px;
-}
-
-#history-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-/* Register */
-#register-div {
-    height: 100vh;
-}
-
-#register-title {
-    padding-top: 5vh;
-}
-
-#register-form {
-    margin-top: 3vh;
-}
-
-.register-field {
-    width: 230px;
-    margin-bottom: 25px;
-    padding: 3px;
-}
-
-#register-dropdown {
-    margin-top: 8vh;
-}
-
-#register-dropdown-title {
-    font-size: 20px;
-}
-
-
-#register-list {
-    margin-top: 10px;
-    display: inline-block; 
-	text-align: left; 
-    margin-left: 35px;
-}
-
-/* Login */
-#login-title {
-    margin-top: 10vh;
-}
-
-#login-form {
-    margin-top: 3vh;
-}
-
-.login-field {
-    width: 230px;
-    padding: 3px;
-    margin-bottom: 25px;
-}
-
-/* League */
-#league-title {
-    padding-top: 3vh;
-}
-
-#league-table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#league-table th, td {
-    padding: 15px;
-}
-
-#league-table tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-.league-medal {
-    height: 30px;
 }

@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block main %}
-    <div id="player">
+    <div id="player-div">
         
         <h2 id="player-name">{{ player_dict["name"] }}</h2>
         <p id="player-position">{{ player_dict["position"] }}</p>
@@ -28,7 +28,7 @@
 
         <img id = "player-picture"
         src="{{ 'https://resources.premierleague.com/premierleague/photos/players/110x140/p'
-                    + player_dict['code']|string + '.png' }}" 
+                + player_dict['code']|string + '.png' }}" 
         alt="{{ player_dict['name'] }} Picture">
 
         <div id="player-info-row">
@@ -59,7 +59,7 @@
         </div>
         {% endif %}
         
-        <div id="player-stats">
+        <div id="player-stats-div">
             <details>
                 <summary id="player-stats-title">Player Stats</summary>
                 <div id="player-stats-table">
@@ -67,5 +67,6 @@
                 </div>
             </details>
         </div>
+
     </div>
 {% endblock %}

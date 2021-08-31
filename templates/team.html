@@ -6,6 +6,7 @@
 
 {% block main %}
     <div id="team">
+        
         <div id="team-alert-div">
             {% with messages = get_flashed_messages() %}
                 {% if messages %} 
@@ -53,39 +54,6 @@
         {% endif %}
         
     </div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // When moving javascript to other file, use this if the other code doesn't work
-            /*positionTypes = ["Goalkeeper", "Defender", "Midfielder", "Forward"];
-            for (let i = 0; i < positionTypes.length; i++) {
-                players = document.getElementsByClassName("team-col-" + positionTypes[i]);
-                for (let j = 0; j < players.length; j++) {
-                    players[j].style.width = String(100 / players.length) + "%";
-                }
-            }*/
-            "{% for type in position_types %}"
-                players = document.getElementsByClassName("team-col-" + "{{ type }}");
-                for (let j = 0; j < players.length; j++) {
-                    players[j].style.width = String(100 / players.length) + "%";
-                }
-            "{% endfor %}"
-        });
-     </script>
-    <!--<script>
-        "{% for code in player_codes %}"
-            /* Scale image 1.5x from original */
-            var img = new Image(165, 210);
-            img.src = "https://resources.premierleague.com/premierleague/photos/players/110x140/p" + "{{ code[0] }}" + ".png";
-            img.alt = "{{ players[loop.index-1][0] }}"
-            document.getElementById('team').appendChild(img);
-        "{% endfor %}"
-    </script>-->
-    <script>
-        $(document).ready(function() {
-            $('[data-toggle="tooltip"]').tooltip();
-        });
-    </script>
 {% endblock %}
 
 
