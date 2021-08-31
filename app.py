@@ -14,7 +14,7 @@ from tempfile import mkdtemp
 from unidecode import unidecode
 
 
-from helpers import login_required
+from helpers import create_player_dict, login_required
 
 MAX_PLAYERS_IN_TEAM = 11
 BUDGET = 800
@@ -66,6 +66,7 @@ df = elements_df[["name", "web_name", "position", "team", "now_cost", "form",
                   "saves", "ict_index","selected_by_percent", "yellow_cards", "red_cards"]]
 
 df = df.sort_values("name")
+
 
 
 # Routes
@@ -240,12 +241,8 @@ def display_player():
 
     if len(player_df_row) == 0:
         return redirect("/players")
-
-    player_info = player_df_row[["name", "web_name", "position", "team", "now_cost", 
-                                 "form", "news", "news_added", "total_points"]]
-
-    player_index = player_info.index[0]
-    player_dict = player_info.to_dict(orient="index")[player_index]
+    else:
+        player_dict = create_player_dict()
 
     # Get player code to retreive image of player from soccer API in player.html
     player_dict["code"] = list(elements_df["code"].loc[elements_df["name"] == player])[0]
@@ -287,28 +284,23 @@ def players():
         # Remove all accents from player name stored in DataFrame
         player_df_row = df.loc[df["name"].apply(unidecode).str.lower().str.contains(player_input)]
 
-        if len(player_df_row) == 1:
-            player_info = player_df_row[["name", "web_name", "position", "team", "now_cost", 
-                                        "form", "total_points"]]
-            
-            player_index = player_info.index[0]
-            player_dict = player_info.to_dict(orient="index")[player_index]
-            
-            con = sqlite3.connect(db)
-            cur = con.cursor()
-            
-            cur.execute("INSERT INTO searches (user_id, name, web_name, position, team, now_cost, form, points) VALUES(?, ?, ?, ?, ?, ?, ?, ?)", 
-                        (session["user_id"], player_dict["name"], player_dict["web_name"], player_dict["position"], player_dict["team"],
-                            player_dict["now_cost"], player_dict["form"], player_dict["total_points"]))
-
-            con.commit()
-            con.close()
-
-            player = str(player_df_row["name"].iloc[0])
-            return redirect(url_for("display_player", player=player))
-        
-        else:
+        if len(player_df_row) == 0:
             return redirect("/players")
+        else:
+            player_dict = create_player_dict()
+            
+        con = sqlite3.connect(db)
+        cur = con.cursor()
+        
+        cur.execute("INSERT INTO searches (user_id, name, web_name, position, team, now_cost, form, points) VALUES(?, ?, ?, ?, ?, ?, ?, ?)", 
+                    (session["user_id"], player_dict["name"], player_dict["web_name"], player_dict["position"], player_dict["team"],
+                        player_dict["now_cost"], player_dict["form"], player_dict["total_points"]))
+
+        con.commit()
+        con.close()
+
+        player = str(player_df_row["name"].iloc[0])
+        return redirect(url_for("display_player", player=player))
 
     else:
         players_df = df[["name", "position", "team"]]
