@@ -13,7 +13,6 @@ import sqlite3
 from tempfile import mkdtemp
 from unidecode import unidecode
 
-
 from helpers import create_player_dict, login_required
 
 MAX_PLAYERS_IN_TEAM = 11

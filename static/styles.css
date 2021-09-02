@@ -145,11 +145,11 @@ History
 }
 
 #history-title {
-    margin-top: 3vh;
+    margin-top: 2vh;
 }
 
 #history-clear-btn {
-    margin-top: 30px;
+    margin-top: 2vh;
 }
 
 #history-table {
@@ -211,7 +211,7 @@ Login
 Player 
 */
 #player-div {
-    margin-top: 3vh;
+    margin-top: 2vh;
 }
 
 #player-name {
@@ -235,11 +235,10 @@ Player
 .player-info-column {
     float: left;
     width: 33.3%;
-    padding: 10px;
     margin-bottom: 30px;
 }
 
-.player-info-row:after {
+#player-info-row:after {
     content: "";
     display: table;
     clear: both;
@@ -253,9 +252,13 @@ Player
     font-size: 18px;
 }
 
+#player-news-time {
+    font-size: 17px;
+}
+
 #player-stats-div {
-    margin-top: 80px;
-    margin-bottom: 100px;
+    margin-top: 5vh;
+    margin-bottom: 5vw;
 }
 #player-stats-title {
     font-size: 25px;
@@ -346,20 +349,19 @@ Register
 Team 
 */
 #team-title {
-    font-size: 50px;
-    margin-top: 2vw;
+    font-size: 5vh;
+    margin-top: 0.5vw;
     margin-bottom: 1.5vw;
 }
 
-#team-row:after {
-    content: "";
-    display: table;
-    clear: both;
+#team-info {
+    font-size: 2vh;
+    margin-bottom: 2vw;
 }
 
 #team-layout {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 2vw;
     color: white;
     background-image: url("field.jpg");
@@ -376,15 +378,16 @@ Team
     }
 }
 
-#team-info {
-    font-size: 2vh;
-    margin-bottom: 2vw;
-}
-
 .team-col {
     float: left;
     text-align: center;
     margin-bottom: 1vw;
+}
+
+#team-row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .team-picture {
@@ -408,7 +411,7 @@ Team
 
 /* Status alert of adding or deleting player */
 #team-alert-div {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 #team-alert {

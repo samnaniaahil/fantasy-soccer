@@ -54,7 +54,9 @@
             <p class="player-info-detail">
                 {{ player_dict["news"] }}.
                 <br>
-                Updated {{ player_dict["news_added"] }}.
+                <span id="player-news-time">
+                    Updated <i>{{ player_dict["news_added"] }}</i>.
+                </span>
             </p>
         </div>
         {% endif %}
