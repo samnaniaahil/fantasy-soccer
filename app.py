@@ -6,7 +6,7 @@ from flask import Flask, flash, redirect, render_template, request, session, url
 from flask_session import Session
 from flask_login import login_required
 from markupsafe import Markup
-import matplotlib.pyplot as plt, mpld3
+import matplotlib
 import pandas as pd
 import re
 import requests
@@ -15,6 +15,9 @@ from tempfile import mkdtemp
 from unidecode import unidecode
 
 from helpers import create_player_dict, login_required
+
+matplotlib.use("agg")
+import matplotlib.pyplot as plt, mpld3
 
 MAX_PLAYERS_IN_TEAM = 11
 BUDGET = 800
@@ -408,7 +411,6 @@ def team():
     con.commit()
     con.close()
 
-    plt.pyplot.switch_backend('Agg')
     plt.plot(1, 2, 3, 4)
     mpld3.show()
 
