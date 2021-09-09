@@ -6,6 +6,7 @@ from flask import Flask, flash, redirect, render_template, request, session, url
 from flask_session import Session
 from flask_login import login_required
 from markupsafe import Markup
+import matplotlib.pyplot as plt, mpld3
 import pandas as pd
 import re
 import requests
@@ -406,6 +407,10 @@ def team():
 
     con.commit()
     con.close()
+
+    plt.pyplot.switch_backend('Agg')
+    plt.plot(1, 2, 3, 4)
+    mpld3.show()
 
     position_types = ["Goalkeeper", "Defender", "Midfielder", "Forward"]
     return render_template("team.html", players=players, position_dict=position_dict, position_types=position_types, 
