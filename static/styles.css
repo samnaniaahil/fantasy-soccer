@@ -111,6 +111,36 @@ input:focus {
 }
 
 
+/*
+Graph
+*/
+#graph-title {
+    margin-top: 5vh;
+    font-size: 30px;
+}
+#graph-img {
+    max-width: 80%;
+    max-height: 60vh;
+}
+#graph-purple {
+    color: purple;
+}
+
+/*
+Graphs
+*/
+#graphs-title {
+    padding-top: 8vh;
+    font-size: 60px;
+}
+
+#graphs-dropdown {
+    padding: 2px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+
 /* 
 Index
 */
@@ -265,6 +295,10 @@ Player
 }
 #player-stats-table {
     margin-top: 20px;
+}
+
+#player-graph {
+    max-width: 40%;
 }
 
 

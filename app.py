@@ -6,18 +6,22 @@ from flask import Flask, flash, redirect, render_template, request, session, url
 from flask_session import Session
 from flask_login import login_required
 from markupsafe import Markup
-import matplotlib
+import numpy as np
+import os
 import pandas as pd
+import random
 import re
 import requests
 import sqlite3
 from tempfile import mkdtemp
 from unidecode import unidecode
 
-from helpers import create_player_dict, login_required
-
+import matplotlib
 matplotlib.use("agg")
-import matplotlib.pyplot as plt, mpld3
+import matplotlib.pyplot as plt
+
+from helpers import create_player_dict, create_player_graph, login_required
+
 
 MAX_PLAYERS_IN_TEAM = 11
 BUDGET = 800
@@ -154,19 +158,62 @@ def delete_player():
         return redirect("/players")
 
 
-@app.route("/league")
+@app.route("/graph")
 @login_required
-def league():
-    con = sqlite3.connect(db)
-    cur = con.cursor()
-
-    # Get info about each user sorted by number of points to display as a leaderboard
-    users = cur.execute("SELECT users.username, SUM(team.points), users.money FROM users JOIN team WHERE users.id = team.user_id GROUP BY users.id ORDER BY SUM(team.points) DESC").fetchall()
-
-    con.commit()
-    con.close()
+def display_graph():
+    column = request.args.get("column")
     
-    return render_template("league.html", users=users)    
+    team_df = df[["team", column]]
+    team_df[column] = pd.to_numeric(team_df[column])
+    team_df = team_df.groupby("team").mean()
+
+    figure, ax = plt.subplots()
+
+    num_teams = len(team_df.index)
+    for i in range(num_teams):
+        team = teams_df["name"].iloc[i]
+
+        ax.bar(team, team_df[column].iloc[i], label=team)
+
+    ax.set_xticks([i for i in range(num_teams)])
+    ax.set_xticklabels(teams_df["name"].unique().tolist())
+    ax.set_xlabel("Team")
+    plt.setp(ax.get_xticklabels(), rotation=90)
+
+    ax.set_ylabel(column)
+
+    ax.spines["right"].set_visible(False)
+    ax.spines["top"].set_visible(False)
+    figure.subplots_adjust(bottom=0.4)
+
+    plt.savefig("static/graphs/" + column + "_graph.png", dpi=300)
+
+    return render_template("graph.html", column=column)
+
+
+@app.route("/graphs", methods=["GET", "POST"])
+@login_required
+def graphs():
+    
+    if request.method == "POST":
+        column = request.form.get("column")
+        if not column:
+            return redirect("/graphs")
+
+        return redirect(url_for("display_graph", column=column))
+    
+    else:
+        # Remove all non-numeric columns
+        new_df = df
+        for column in new_df:
+            try:
+                pd.to_numeric(new_df[column])
+            except ValueError:
+                new_df = new_df.drop(columns=[column])
+
+        df_cols = new_df.columns.values
+
+        return render_template("graphs.html", df_cols=df_cols)
 
 
 @app.route("/history", methods=["GET", "POST"])
@@ -187,6 +234,21 @@ def history():
         con.commit()
         con.close()
         return render_template("history.html", transfers=transfers)
+
+
+@app.route("/league")
+@login_required
+def league():
+    con = sqlite3.connect(db)
+    cur = con.cursor()
+
+    # Get info about each user sorted by number of points to display as a leaderboard
+    users = cur.execute("SELECT users.username, SUM(team.points), users.money FROM users JOIN team WHERE users.id = team.user_id GROUP BY users.id ORDER BY SUM(team.points) DESC").fetchall()
+
+    con.commit()
+    con.close()
+    
+    return render_template("league.html", users=users)    
 
 
 @app.route("/login", methods=["GET", "POST"])
@@ -236,6 +298,7 @@ def logout():
     
     return redirect("/login")
 
+
 @app.route("/player")
 @login_required
 def display_player():
@@ -248,7 +311,10 @@ def display_player():
         player_dict = create_player_dict(player_df_row)
 
     # Get player code to retreive image of player from soccer API in player.html
-    player_dict["code"] = list(elements_df["code"].loc[elements_df["name"] == player])[0]
+    player_dict["code"] = elements_df["code"].loc[elements_df["name"] == player].values[0]
+
+    # Get player id to identify corresponding player graph image from disk
+    player_dict["id"] = elements_df["id"].loc[elements_df["name"] == player].values[0]
 
     if player_dict["news"]:
         player_dict["news"] = player_dict["news"]
@@ -301,6 +367,8 @@ def players():
 
         con.commit()
         con.close()
+        
+        create_player_graph(str(elements_df["id"].loc[elements_df["name"] == player_dict["name"]].values[0]))
 
         player = str(player_df_row["name"].iloc[0])
         return redirect(url_for("display_player", player=player))
@@ -411,11 +479,6 @@ def team():
     con.commit()
     con.close()
 
-    plt.plot(1, 2, 3, 4)
-    mpld3.show()
-
     position_types = ["Goalkeeper", "Defender", "Midfielder", "Forward"]
     return render_template("team.html", players=players, position_dict=position_dict, position_types=position_types, 
                            player_codes=player_codes, total_points=total_points, money=money)
-
-

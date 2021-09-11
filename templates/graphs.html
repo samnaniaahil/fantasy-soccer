@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Team
+{% endblock %}
+
+{% block main %}
+   <h1 id="graphs-title">Visualize</h1>
+   <p>Visualize aggregate team stats with graphs.</p>
+   <form id="graphs-form" action="/graphs" method="post">
+      <label>
+         <select id="graphs-dropdown" name="column">
+            <option disabled selected value="">statistic</option>
+               {% for col in df_cols %}
+                  <option value="{{ col }}">{{ col }}</option> 
+               {% endfor %}
+         </select>
+      </label>
+
+      <button class="btn-custom" type="submit">Graph</button>
+   </form>
+{% endblock %}

@@ -39,3 +39,9 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+
+
+// Toggle tooltip in team.html
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })

@@ -6,12 +6,17 @@ Created on Sat Aug 14 12:38:02 2021
 @author: aahilsamnani
 """
 
+import bokeh
 from unidecode import unidecode
 import requests
+import matplotlib.pyplot as plt
+import mpld3
+from mpld3 import plugins
 import pandas as pd
 import numpy as np
 import sqlite3
 import psycopg2
+import random
 
 
 url = 'https://fantasy.premierleague.com/api/bootstrap-static/'
@@ -29,15 +34,88 @@ elements_df['team'] = elements_df.team.map(teams_df.set_index('id').name)
 elements_df["name"] = elements_df["first_name"] + " " + elements_df["second_name"]
 elements_df = elements_df.drop(columns=["first_name", "second_name"])
 
-df = elements_df[["name", "web_name", "position", "team", "total_points", 
-                  "points_per_game", "minutes", "goals_scored", "assists", 
-                  "clean_sheets", "goals_conceded", "saves", "ict_index",
-                  "form", "now_cost", "selected_by_percent", "news", "news_added", 
-                  "yellow_cards", "red_cards"]]
 
-player_info = df[["name", "web_name", "position", "team", "now_cost", 
-                                       "form", "news", "news_added", "total_points"]]
 
+df = elements_df[["name", "web_name", "position", "team", "now_cost", "form", 
+                  "news", "news_added", "total_points", "points_per_game", 
+                  "goals_scored", "assists", "clean_sheets", "goals_conceded", 
+                  "saves", "ict_index","selected_by_percent", "yellow_cards", "red_cards"]]
+
+
+
+base_url = "https://fantasy.premierleague.com/api/"
+player_id = 558
+r2 = requests.get(base_url + "element-summary/" + str(player_id) + "/").json()
+player_df = pd.json_normalize(r2["history"])
+
+if not player_df.empty:
+    figure, ax = plt.subplots()
+    
+    
+    plt.style.use("ggplot")
+    for i in range(len(player_df.index)):
+        if player_df["was_home"].iloc[i] == True:
+            score_diff = player_df["team_h_score"].iloc[i] - player_df["team_a_score"].iloc[i]
+        else:
+            score_diff = player_df["team_a_score"].iloc[i] - player_df["team_h_score"].iloc[i]
+            
+        if score_diff > 0:
+            result = "won"
+            l_color = "green"
+        elif score_diff == 0:
+            result = "drew"
+            l_color = "yellow"
+        else:
+            result = "lost"
+            l_color = "red"
+        
+        random_number = random.randint(0,16777215)
+        hex_number = str(hex(random_number))
+        hex_number ='#'+ hex_number[2:]
+        plt.scatter(i+1, player_df["total_points"].iloc[i], 
+                   label=result, color=hex_number)
+    
+
+    handles, labels = plt.gca().get_legend_handles_labels()
+    by_label = dict(zip(labels, handles))
+    plt.legend(by_label.values(), by_label.keys())
+     
+    ax.xaxis.set_major_locator(plt.MaxNLocator(integer=True))
+    ax.set_xlabel("Gameweek")
+    
+    ax.set_ylabel("Points")
+    
+    ax.spines["right"].set_visible(False)
+    ax.spines["top"].set_visible(False)   
+
+
+"""column = "form"
+figure, ax = plt.subplots()
+team_df = df[["team", column]].groupby("team").mean()"""
+
+"""for i in range(20):
+    team = teams_df["name"].tolist()[i]
+    ax.bar(team, team_df[column].tolist()[i], label=team)
+ax.set_xticks([i for i in range(20)])
+ax.set_xticklabels(teams_df["name"].unique().tolist())
+ax.set_xlabel("Team")
+ax.set_ylabel(column)
+ax.spines["right"].set_visible(False)
+ax.spines["top"].set_visible(False)
+plt.title("Average " + column + " by Team")
+plt.setp(ax.get_xticklabels(), rotation=90)
+figure.subplots_adjust(bottom=0.2)
+plt.setp(ax.get_xticklabels(), rotation=90)
+plt.savefig("static/" + column + "_graph.png", dpi=300)"""
+
+
+
+
+
+"""
+ax.bar(df["team"].unique().tolist(), teams_df["total_points"].tolist())
+plt.setp(ax.get_xticklabels(), rotation=90)
+"""
 
 """if request.method == "POST":
         # Normalize string, unidecode removes accents
