@@ -6,10 +6,7 @@ from flask import Flask, flash, redirect, render_template, request, session, url
 from flask_session import Session
 from flask_login import login_required
 from markupsafe import Markup
-import numpy as np
-import os
 import pandas as pd
-import random
 import re
 import requests
 import sqlite3
