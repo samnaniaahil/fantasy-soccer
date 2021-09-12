@@ -28,7 +28,7 @@ A full-stack web app that replicates the [Fantasy Premier League](https://fantas
 	<table>
 		<tr>
 			<th>app.py</th>
-			<th>app.py</th>
+			<th>helpers.py</th>
 		</tr>
 		<tr>
 			<td>App controller</td>
