@@ -111,3 +111,11 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+
+#Custom
+/data
+player_query.py
+.DS_Store
+Procfile
+soccer.db
