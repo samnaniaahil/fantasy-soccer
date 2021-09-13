@@ -9,6 +9,7 @@ A full-stack web app that replicates the [Fantasy Premier League](https://fantas
 * Customize your fantasy team to any formation.
 * View how many points your fantasy team has on a leaderboard of all the app's users.
 * View your transfer history (i.e. a history of the players you've added and deleted to your team).
+* Visualize player and team stats with dynamically-generated graphs.
 
 ## Image Gallery
 #### Player Stats
