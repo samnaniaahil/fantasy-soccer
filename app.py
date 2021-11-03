@@ -45,10 +45,7 @@ Session(app)
 db = "soccer.db"
 
 # Data pre-processing
-# -------------------
 # Data retreived from: https://fantasy.premierleague.com/api/bootstrap-static/
-# Special thanks to David Allen: 
-# (https://towardsdatascience.com/fantasy-premier-league-value-analysis-python-tutorial-using-the-fpl-api-8031edfe9910#8ef2)
 # -------------------
 r = requests.get("https://fantasy.premierleague.com/api/bootstrap-static/")
 json = r.json()
