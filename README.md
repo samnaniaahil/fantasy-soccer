@@ -1,7 +1,7 @@
 # Fantasy Soccer
 
 #### Description
-A full-stack web app that replicates the [Fantasy Premier League](https://fantasy.premierleague.com/) -- a fantasy soccer game for the [English Premier League](https://en.wikipedia.org/wiki/Premier_League) (England's top-flight football league). Players earn points each gameweek, during which each player plays one game. At the end of each gameweek, a player's points and other stats are updated. Each player's points are summed up to get a user's points total.
+A full-stack web app that serves as a fantasy soccer game and tool for the [English Premier League](https://en.wikipedia.org/wiki/Premier_League) (England's top-flight football league). Players earn points each gameweek, during which each player plays one game. At the end of each gameweek, a player's points and other stats are updated. Each player's points are summed up to get a user's points total.
 
 #### Features
 * View in-depth player stats for over 500 players and their most recent news (e.g. injuries, illness, suspensions).
