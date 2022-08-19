@@ -4,7 +4,7 @@
 A full-stack web app that serves as a fantasy soccer game and tool for the [English Premier League](https://en.wikipedia.org/wiki/Premier_League) (England's top-flight football league). Players earn points each gameweek, during which each player plays one game. At the end of each gameweek, a player's points and other stats are updated. Each player's points are summed up to get a user's points total.
 
 #### Features
-* View in-depth player stats for over 500 players and their most recent news (e.g. injuries, illness, suspensions).
+* View in-depth stats for over 500 players and their most recent news (e.g. injuries, illness, suspensions).
 * Add and delete players from your fantasy team to earn (and potentially lose) points. 
 * Customize your fantasy team to any formation.
 * View how many points your fantasy team has on a leaderboard of all the app's users.
